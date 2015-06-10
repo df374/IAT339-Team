@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TICTOK style guide</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    
+
+    <link rel="stylesheet" href="css/grid.css">
+
+  </head>
+  <body>
+
+    <h1>TICTOK style guide</h1>
+    <h3>Aileen Wang D101</h3>
+
+    <!--Interactive element-->  
+
+     <h2>Interactive Elements</h2>
+
+          <section>
+            <h3>In-text link</h3>
+
+            <p><strong>CSS selector: </strong>.text-link</p>
+
+            <p><strong>Code: </strong><code>&lt;a href="#product" class="text-link"&gt;in-text link &lt;/a&gt;</code></p>
+
+            <p><strong>Render: </strong><a href="#product" class="text-link">In-text link</a></p>
+          </section>
+
+          <section>
+             <h3>Navigation Button</h3>
+
+             <p><strong>CSS selector: </strong>.nav-link</p>
+             <p><strong>Code: </strong><code>&lt;p class="nav-link"gt;nav button&lt;/p&gt;</code></p>
+
+             <p class="nav-link">nav button</p>
+          </section>
+
+          <section>
+            <h3>Submit/Reset Button</h3>
+            
+            <p><strong>CSS selector: </strong>.button1</p>
+
+            <p><strong>Code: </strong><code>&lt;p class="button1"&gt;submit/reset&lt;/p&gt;</code></p>
+
+
+            <p class="button1">submit/reset</p>
+          </section>
+
+          <section>
+
+            <h3>Label and Text Input</h3>
+
+            <p><strong>CSS selector: </strong>.form-input</p>
+
+            <p><strong>Code: </strong><code>&lt;p&gt;&lt;textarea placeholer="input text here"&gt;&lt;/textarea&gt; &lt;/p></code></p>
+ 
+
+            <form class ="form-input">
+              <label>Label</label>
+                <p><textarea placeholer="input text here"></textarea> </p>
+            </form>
+          </section>
+
+    
+
+    <!--Text styling-->
+     <h2>Text Styling</h2>
+
+        <section>
+
+          <h3>Headings</h3>
+
+          <p><strong>CSS selector: </strong>.head1, .head2, .head3</p>
+
+          <p><strong>Code: </strong><code> &lt;p class="head1"&gt;Heading 1&lt;/p&gt;</code></p>
+
+          <p class="head1">Heading 1</p>
+          <p class="head2">Heading 2</p>
+          <p class="head3">Heading 3</p>
+        </section>
+
+        <section>
+
+          <h3>Text and Points</h3>
+
+          <p><strong>CSS selector: </strong>.text, .ol, .ul, .li</p>
+
+          <p class="text">Quisque et erat nunc. Vivamus massa turpis, accumsan at finibus et, volutpat ac nulla. Proin tincidunt faucibus mauris sit amet sodales. Donec eget tempor massa, et pulvinar dolor. Duis a quam et lorem condimentum accumsan. In hendrerit massa ac purus malesuada rutrum.</p>
+
+           <ol>
+            <li>Duis mollis, justo ac laoreet ullamcorper.</li>
+            <li>Pellentesque habitant morbi tristique senectus.</li>
+            <li>Sed vestibulum sem eget nulla efficitur.</li>
+           </ol>
+
+           <ul>
+            <li>Duis mollis, justo ac laoreet ullamcorper.</li>
+            <li>Pellentesque habitant morbi tristique senectus.</li>
+            <li>Sed vestibulum sem eget nulla efficitur.</li>
+           </ul>
+
+        </section>
+
+
+     
+    <!--combined elements-->
+    <h2>Combined Elements</h2>
+
+      <section>
+        <h3>Main Navigation</h3>
+        <p><strong>CSS selector: </strong>.navigation, .button.nav</p>
+        <p><strong>Code: </strong><code>&lt;p class="button-nav"&gt;NEWS&lt;/p&gt;</code></p>
+
+        <h3>Product Listing</h3>
+        <p><strong>CSS selector: </strong>.grid, .grid-col-5of10</p>
+        <p><strong>Code: </strong><code>&lt;div class="grid-col-5of10"&gt;</code></p>
+      </section>
+   
+      <div class="navigation">
+    
+          <p class="button-nav">NEWS</p>
+ 
+          <p class="button-nav">ABOUT</p>
+
+          <p class="button-nav">PRODUCTS</p>
+    
+          <p class="button-nav">CONTACT</p>
+  
+      </div>
+
+
+    <!--a product listing-->
+
+
+      <div class="grid">
+
+         <div class="grid-col-5of10">
+            <article id="product">
+
+              <figure>
+                <img alt="clock1" src="img/clock1.jpg" width="400" height="400">
+              </figure>
+
+              <p>Nam ac pulvinar orci. Aliquam at nunc sit amet orci vulputate porttitor. Nullam urna lectus, aliquet sit amet ullamcorper quis, accumsan et orci. Proin in libero purus. Nullam malesuada tellus commodo lacinia sodales.</p>
+
+            </article>
+         </div>
+
+         <div class="grid-col-5of10">
+            <article>
+
+              <figure>
+                <img alt="clock2" src="img/clock2.jpg" width="400" height="400">
+              </figure>
+
+              <p>Nam ac pulvinar orci. Aliquam at nunc sit amet orci vulputate porttitor. Nullam urna lectus, aliquet sit amet ullamcorper quis, accumsan et orci. Proin in libero purus. Nullam malesuada tellus commodo lacinia sodales.</p>
+
+            </article>
+         </div>
+
+      </div>
+
+
+  </body>
+</html>
