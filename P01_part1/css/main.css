@@ -5,8 +5,9 @@ html {
 
   -webkit-text-size-adjust: 100%;
 
-  background-color: blue;
- 
+  background-color: white;
+ t
+
 }
 
 
@@ -112,7 +113,10 @@ li{
 	margin-left: auto;
 	margin-right: auto;
 	color: #88692b;
-	width: 60%;
+	width: 40%;
 	font-size: 1.3em;
 }
 
+#navigation_box{
+	text-align: center;
+}
