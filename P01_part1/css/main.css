@@ -5,7 +5,6 @@ html {
 
   -webkit-text-size-adjust: 100%;
 
-  background-color: pink;
  
 }
 
@@ -49,6 +48,10 @@ section{
 
 .nav-link{
 	color: #aa863e;
+	display: inline-block;
+	border: 0.1em solid #bd9a3f;
+	border-radius: 0.3em;
+
 }
 
 .text-link:hover{
@@ -59,14 +62,14 @@ section{
 	color: #c5a550;
 }
 
-.button1{
+.action-btn{
 	padding: 0.3em 1.25em;
 	display: inline-block;
 	color: #ffffff;
 	background-color: #aa863e; 
 }
 
-.button1:hover{
+.action-btn:hover{
 	color: #ffffff;
 	background-color: #c5a550; 
 }
@@ -116,3 +119,24 @@ li{
 	font-size: 1.3em;
 }
 
+
+.alert{
+  padding:1.3em;
+  margin-bottom:1.3em;
+  border:0.1em solid transparent;
+  border-radius:0.5em;
+  width:60%;
+}
+
+.alert-success{
+  color:green;
+  background-color:#C1FFC1;
+  border-color:#C5E3BF;
+
+}
+
+.alert-error{
+  color:red;
+  background-color:#FFE4E1;
+  border-color:#FFCCCC;
+}
