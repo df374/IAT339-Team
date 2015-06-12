@@ -1,13 +1,12 @@
 html {
-  font-family: Khula, sans-serif;
+  font-family: 'Khula', sans-serif;
 
-  -ms-text-size-adjust: 50%;
+  -ms-text-size-adjust: 100%;
 
-  -webkit-text-size-adjust: 50%;
+  -webkit-text-size-adjust: 100%;
 
   background-color: white;
  
-
 }
 
 
@@ -24,9 +23,11 @@ html {
 
 
 h1{
+	
 	font-size: 6em;
 	margin-bottom: 0;
 }
+
 
 h2{
 	font-size: 3em;
@@ -41,6 +42,11 @@ h3{
 section{
 	border: solid gray;
 	padding: 2em;
+}
+
+
+body{
+	font-family: 'Khula' sans-serif;
 }
 
 .text-link{
@@ -101,7 +107,7 @@ label{
 
 p{
 	font-size: 1.3em;
-	font-family: Khula, sans-serif;
+	
 }
 
 .ul{
@@ -139,12 +145,12 @@ li{
  
 #num-list ol li {
   position: relative;
-  font: normal 2.8em/1.5 Khula, sans-serif;
+  font: normal 2.8em/1.5 'Khula', sans-serif;
   margin-bottom: 2em;
 }
  
 #num-list li p {
-  font: 0.4em/1.5 Khula, sans-serif;
+  font: 0.6em/1.5 'Khula', sans-serif;
   padding-left: 3.8em;
   color: grey;
 }
