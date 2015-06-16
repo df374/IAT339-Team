@@ -26,6 +26,7 @@ h1{
 	
 	font-size: 6em;
 	margin-bottom: 0;
+	font-weight: normal;
 }
 
 
@@ -49,42 +50,56 @@ body{
 	font-family: 'Khula' sans-serif;
 }
 
-.text-link{
+.in-text-link{
 	color: #aa863e;
 	font-size: 1.3em;
 
 }
 
-.nav-link{
-	color:#c5a550;
-	
-}
-.text-link:hover{
+.in-text-link:hover{
 	color: #c5a550;
 }
+
+.nav-link{
+	color:#c5a550;
+}
+
 
 .nav-link:hover{
 	color: #c5a550;
 }
 
-.action-btn{
+.submit-btn{
 	padding: 0.3em 1.25em;
 	display: inline-block;
 	color: #ffffff;
 	background-color: #aa863e; 
 }
 
-.action-btn:hover{
+.submit-btn:hover{
 	color: #ffffff;
 	background-color: #c5a550; 
 }
 
 
-.button-nav:hover, .button-nav:active, .button-nav:focus {
+.reset-btn{
+	padding: 0.3em 1.25em;
+	display: inline-block;
+	color: #ffffff;
+	background-color: #aa863e; 
+}
+
+.reset-btn:hover{
+	color: #ffffff;
+	background-color: #c5a550; 
+}
+
+
+.main-navigation-btn:hover, .main-navigation-btn-nav:active, .main-navigation-btn-nav:focus {
 	color: #c5a550;
 }
 
-label{
+.text-input-field{
 	font-size: 2em;
 	color: #88692b;
 }
