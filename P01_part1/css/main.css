@@ -36,7 +36,7 @@ h2{
 }
 
 h3{
-	font-size: 2em;
+	font-size: 1em;
 	margin-top: 0;
 }
 
@@ -51,22 +51,33 @@ body{
 }
 
 .in-text-link{
-	color: #aa863e;
+	color: #c5a550;
 	font-size: 1.3em;
 
 }
 
 .in-text-link:hover{
-	color: #c5a550;
+	color: #e2d2a7;
 }
 
-.nav-link{
+.in-text-link:active{
+	color:#4e4220;
+}
+
+.link-btn{
+	padding:0.4em;
 	color:#c5a550;
+	border:0.1em solid #c5a550 ;
+	border-radius: 0.3em;
+	display:inline-block;
+	text-decoration: none;
+
+
 }
 
-
-.nav-link:hover{
-	color: #c5a550;
+.link-btn:hover{
+	color: #897338;
+	background-color: #625228;
 }
 
 .submit-btn{
