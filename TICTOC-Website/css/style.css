@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding:0;
+	background: lightgrey;
+}
+
+
+.nav ul {
+    list-style-type: none;
+    background-color: grey;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav li {
+	font-family: "Josefin Slab" sans-serif;
+	font-size: 1.2em;
+	line-height: 2.5em;
+	height:2.5em;
+	border-bottom:0.1em solid yellow;
+}
+
+.nav a {
+	text-decoration: none;
+	color: orange;
+	display: block;
+	transition: .3s background-color;
+}
+
+.nav a:hover {
+	background-color: white;
+	color: green;
+}
+
+.nav a.active {
+	background-color:lightyellow;
+	color:blue;
+}
+
+@media screen and (min-width: 40em) {
+  .nav li {
+    width: 7em;
+    border-bottom: none;
+    height: 3em;
+    line-height: 3em;
+    font-size: 1.4em;
+  }
+ 
+  .nav li {
+    display: inline-block;
+    margin-right: 0.25em;
+  }
