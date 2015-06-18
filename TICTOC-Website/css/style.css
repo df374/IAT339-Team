@@ -8,25 +8,23 @@ body {
 	background: white;
 }
 
+/*naviation*/
 .nav{
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
 	width: 50%;
 	list-style-type: none;
 	text-align:center;
 	padding:0;
-	border-top:0.1em solid yellow;
-	border-bottom: 0.1em solid yellow;
- 
-}
+	border-top:0.1em solid black;
+	border-bottom: 0.1em solid black;
+ }
 
-
-
-
-.nav li {
-	line-height: 2.5em;
-	height:2.5em;
-	border-bottom:0.1em solid yellow;
+.nav ul, li{
+	padding:0;
+	margin:0;
 }
 
 .nav a {
@@ -57,6 +55,10 @@ body {
  
   .nav li {
     display: inline-block;
+<<<<<<< 93da7de3fb376a52593fb5752fa30c64c97c9753
     margin-right: 0.25em;
   }
 
+=======
+  }
+>>>>>>> 00e798ef79c29fb4738f9b02478aa38426f18944
