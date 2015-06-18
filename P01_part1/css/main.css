@@ -17,8 +17,8 @@ html {
 	padding: 0.3em 1.25em;
 	border-radius: 0.2em bold;
 	
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
+	background: -webkit-transition: background-color 0.3s ease-out;
+  -webkit-transition: background-color 0.3s ease-out;
 }
 
 
@@ -71,20 +71,27 @@ body{
 	border-radius: 0.3em;
 	display:inline-block;
 	text-decoration: none;
-
-
 }
 
 .link-btn:hover{
-	color: #897338;
-	background-color: #625228;
+	border-color:#b19448;
+	color: white;
+	background-color: #d6c084;
+}
+
+.link-btn:active{
+	border-color:#4e4220;
 }
 
 .submit-btn{
-	padding: 0.3em 1.25em;
+	padding: 0.6em 1.5em;
+	border:0.2em solid #aa863e;
+	border-radius: 0.2em;
 	display: inline-block;
 	color: #ffffff;
-	background-color: #aa863e; 
+	background-color: #caae61; 
+	width:20%;
+	height:20%;
 }
 
 .submit-btn:hover{
@@ -94,10 +101,14 @@ body{
 
 
 .reset-btn{
-	padding: 0.3em 1.25em;
-	display: inline-block;
+	padding: 0.6em 1.5em;
+	border:0.2em solid #aa863e;
+	border-radius: 0.3em;
+	width:33%;
 	color: #ffffff;
-	background-color: #aa863e; 
+	background-color: #caae61; 
+	width:20%;
+	height:20%;
 }
 
 .reset-btn:hover{
