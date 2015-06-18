@@ -25,18 +25,19 @@ body {
 .nav ul, li{
 	padding:0;
 	margin:0;
+	font-size: 0.8em;
 }
 
 .nav a {
 	text-decoration: none;
-	color: orange;
+	color: gray;
 	display: block;
 	transition: .3s background-color;
 }
 
 .nav a:hover {
 	background-color: white;
-	color: green;
+	color: #e2d2a7;
 }
 
 .nav a.active {
