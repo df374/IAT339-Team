@@ -29,6 +29,22 @@ h1, h3{
 	text-align: center;
 }
 
+/*buttons*/
+
+.btn-submit{
+	padding:0.1em 1em 0.1em 1em;
+	display: inline-block;
+	text-align: center;
+	color: #ffffff;
+	background-color: #caae61; 
+	
+}
+
+.btn-submit:hover{
+	color: #ffffff;
+	background-color: #c5a550; 
+}
+
 /*site logo*/
 .site-logo{
 	margin-left: auto;
