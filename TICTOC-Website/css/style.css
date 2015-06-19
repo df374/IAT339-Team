@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
 
+/*text stylings*/
 body {
 	font-family: "Josefin Slab" serif;
 	font-size: 1.2em;
@@ -7,6 +8,16 @@ body {
 	padding:0;
 	background: white;
 }
+
+.paragraph-general{
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+
+	padding: 1em;
+
+}
+
 /*site logo*/
 .site-logo{
 	margin-left: auto;
@@ -137,7 +148,7 @@ body {
 
 
 /*news update layout grid*/
-.news-events{
+.news-events, .img-general{
 	margin-left: auto;
 	margin-right:auto;
 	width:80%;
