@@ -68,7 +68,7 @@ body {
   }
 >>>>>>> 00e798ef79c29fb4738f9b02478aa38426f18944
 
-/*product grid*/
+/*product grid __reference from in class examples and material*/
 
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
@@ -116,4 +116,13 @@ body {
 	clear: both;
 
 }
+
+
+/*news update layout grid*/
+.grid-news{
+	margin-left: auto;
+	margin-right:auto;
+	width:80%;
+}
+
 
