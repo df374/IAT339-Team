@@ -26,8 +26,8 @@ body {
 	list-style-type: none;
 	text-align:center;
 	padding:0;
-	border-top:0.1em solid black;
-	border-bottom: 0.1em solid black;
+	border-top:0.1em solid gray;
+	border-bottom: 0.1em solid gray;
  }
 
 .nav ul, li{
