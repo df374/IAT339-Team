@@ -74,6 +74,8 @@ body {
 
 /*product grid __reference from in class examples and material*/
 
+
+
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -81,9 +83,6 @@ body {
 }
 
 .grid{
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 [class^='grid-col-'] {
@@ -93,10 +92,50 @@ body {
 	text-align: center; 
 }
 
+
 .grid-col-5of10 {
-	width: 40%;
+	width: 50%;
 
 }
+
+
+@media (max-width: 50em) {
+
+	.grid-col-5of10 {
+		width: 100%;
+	}
+
+}
+
+
+
+.grid-col-2of10 {
+	width: 20%;
+}
+
+@media (max-width: 30em) {
+
+	.grid-col-2of10 {
+		width: 100%;
+	}
+
+}
+
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+.grid{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
 
 
 
