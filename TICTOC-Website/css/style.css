@@ -86,40 +86,19 @@ body {
 	margin-left: auto;
 }
 
+[class^='grid-col-'] {
+	float: left;
+
+	padding: 1em; 
+	text-align: center; 
+}
 
 .grid-col-5of10 {
-	width: 50%;
-
-}
-
-@media (max-width: 50em) {
-
-	.grid-col-5of10 {
-		width: 100%;
-	}
+	width: 40%;
 
 }
 
 
-.grid-col-2of10 {
-	width: 20%;
-}
-
-@media (max-width: 30em) {
-
-	.grid-col-2of10 {
-		width: 100%;
-	}
-
-}
-
-
-.grid:after {
-	content: "";
-	display: block;
-	clear: both;
-
-}
 
 
 /*news update layout grid*/
@@ -133,4 +112,6 @@ body {
 .img_news{
 	padding:1em 0 1em 0;
 }
+
+
 
