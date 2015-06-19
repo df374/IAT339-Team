@@ -7,8 +7,12 @@ body {
 	padding:0;
 	background: white;
 }
+/*site logo*/
+.site-logo{
+	margin: 2em;
+}
 
-/*naviation*/
+/*navigation*/
 .nav{
 	margin-left: auto;
 	margin-right: auto;
@@ -41,7 +45,7 @@ body {
 }
 
 .nav a.active {
-	background-color:lightyellow;
+	background-color:#e2d2a7;
 	color:blue;
 }
 
@@ -63,3 +67,53 @@ body {
 =======
   }
 >>>>>>> 00e798ef79c29fb4738f9b02478aa38426f18944
+
+/*product grid*/
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.grid{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.grid-col-5of10 {
+	width: 50%;
+
+}
+
+@media (max-width: 50em) {
+
+	.grid-col-5of10 {
+		width: 100%;
+	}
+
+}
+
+
+.grid-col-2of10 {
+	width: 20%;
+}
+
+@media (max-width: 30em) {
+
+	.grid-col-2of10 {
+		width: 100%;
+	}
+
+}
+
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
