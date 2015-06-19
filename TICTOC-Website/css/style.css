@@ -106,6 +106,21 @@ h1, h3{
   }
 
 
+ .nav #user-cart{
+  	font-size: 1em;
+  	font-style: italic;
+  }
+
+.search-bar{
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+
+	margin-top: 2em;
+	text-align: right;
+
+}
+
 
 /*product grid __reference from in class examples and material*/
 
