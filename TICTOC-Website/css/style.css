@@ -88,7 +88,6 @@ body {
 [class^='grid-col-'] {
 	float: left;
 
-	padding: 1em; 
 	text-align: center; 
 }
 
@@ -106,7 +105,6 @@ body {
 	}
 
 }
-
 
 
 .grid-col-2of10 {
@@ -130,12 +128,10 @@ body {
 }
 
 .grid{
-	width: 80%;
+	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
 }
-
-
 
 
 
