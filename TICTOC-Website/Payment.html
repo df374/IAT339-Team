@@ -40,16 +40,111 @@
 	<!--paragraph-->
 	<h1>Payment</h1>
 
-	<div class= "img-general">
 
-		<img alt="header" src="img/placeholder.png" width="800" height="300">	
+
+	<h3>Items</h3>
+
+		<div class= "img-general">
+
+			<img alt="header" src="img/placeholder.png" width="800" height="150">	
+
+			<img alt="header" src="img/placeholder.png" width="800" height="150">	
+
+
+	<div class="paragraph-payments">
+
+			<p>Sub Total: </p>
 
 	</div>
 
 
 
+	<h3>Payment Method<h3>
+
+	
+	<!-- Credit Card Number Field "card number" text could be outside/above? -->
+	<form class ="text-input-field">
+			
+			<p><input type="text" value="Card Number" cols="80" rows="10"></p>
+    
+    </form>
+
+
+
+    <!-- Credit Card Icons (Visa, MasterCard, American Express, Paypal etc) -->
+    <div class= "grid">
+
+		<img alt="icon" src="img/placeholder.png" width="50" height="50">
+		<img alt="icon" src="img/placeholder.png" width="50" height="50">
+		<img alt="icon" src="img/placeholder.png" width="50" height="50">	
+		<img alt="icon" src="img/placeholder.png" width="50" height="50">	
+
+
+	</div>
+
+	<!-- We will have to make these dropdowns later -->
+
+	<form class ="text-input-field">
+			
+		<p><input type="text" value="Expiration Month" cols="80" rows="10"></p>
+		<p><input type="text" value="Expiration Year" cols="80" rows="10"></p>
+		<p><input type="text" value="CSV Number" cols="80" rows="10"></p>
+
+    
+    </form>
+
+    <!-- Supposed to be checkboxes or radio buttons that give 3-4 options + their extra price -->
+
+    <h3>Shipping Method<h3>
+
+    	<div class="radio-btn">
+        
+        <input type="checkbox" value="Free shipping (5-10 days)" id="radio-btn" name="radio" />
+        <input type="checkbox" value="Expediated (2-3 days) $9.95" id="radio-btn" name="radio" />
+        <input type="checkbox" value="One-Day $18.95" id="radio-btn" name="radio" />
+
+    	</div>
+
+
+    <h2>Subtotal with Shipping and Handling<h2>
+    	<p>$$$
+
+
+    <!-- Most likely need a different type of form for Billing & Shipping -->
+
+    <h3>Billing Address</h3>
+
+    <form class ="text-input-field">
+			
+		<p><input type="text" value="Full Name" cols="80" rows="10"></p>
+		<p><input type="text" value="Street Address 1" cols="80" rows="10"></p>
+		<p><input type="text" value="Address 2 (Apt #, Suite, Floor)" cols="80" rows="10"></p>
+		<p><input type="text" value="City" cols="80" rows="10"></p>
+		<p><input type="text" value="State/Province" cols="80" rows="10"></p>
+		<p><input type="text" value="Zip/Postal Code" cols="80" rows="10"></p>
+		<p><input type="text" value="Country" cols="80" rows="10"></p>
+		<p><input type="text" value="Email Address" cols="80" rows="10"></p>
+		<p><input type="text" value="Phone Number" cols="80" rows="10"></p>
+
+    
+    </form>
+
+
+	<h3>Shipping Address</h3>
+
+
+	<!--buttons-->
+		<div class="btn-submit">
+			<p>Order</p>
+		</div>
+
+
+
+
+
 
 <a href="Final-Order.html">Confirm Order</a>
+
 </body>
 
 </html>
