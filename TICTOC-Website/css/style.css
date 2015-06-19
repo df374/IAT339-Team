@@ -18,6 +18,17 @@ body {
 
 }
 
+h1, h3{
+	font-weight: 300;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	width: 40%;
+	border-bottom: 0.05em solid gray;
+
+	text-align: center;
+}
+
 /*site logo*/
 .site-logo{
 	margin-left: auto;
@@ -75,13 +86,10 @@ body {
  
   .nav li {
     display: inline-block;
-<<<<<<< 93da7de3fb376a52593fb5752fa30c64c97c9753
     margin-right: 0.25em;
   }
 
-=======
-  }
->>>>>>> 00e798ef79c29fb4738f9b02478aa38426f18944
+
 
 /*product grid __reference from in class examples and material*/
 
@@ -93,8 +101,6 @@ body {
 	box-sizing: border-box;
 }
 
-.grid{
-}
 
 [class^='grid-col-'] {
 	float: left;
@@ -140,8 +146,8 @@ body {
 
 .grid{
 	width: 60%;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 2em auto 2em auto;
+	text-align: center;
 }
 
 
