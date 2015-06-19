@@ -123,10 +123,14 @@ body {
 
 
 /*news update layout grid*/
-.grid-news{
+.news-events{
 	margin-left: auto;
 	margin-right:auto;
 	width:80%;
+	text-align: center;
 }
 
+.img_news{
+	padding:1em 0 1em 0;
+}
 
