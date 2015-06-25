@@ -1,0 +1,157 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Payment</title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+
+
+	<body>
+
+	<!--Logo Banner above Navigation Menu-->
+
+	<div class="search-bar">
+			<label>Search <input/></label>
+	</div>
+		
+	<div class="site-logo">
+		
+    	<img alt="header" src="img/placeholder.png" width="680" height="50">	
+
+	</div>
+
+    <!--nav bar-->
+	<div class="nav">
+		<ul>
+		  <li class="home"><a href="#">Home</a></li>
+		  <li class="about"><a href="About.html">About</a></li>
+		  <li class="products"><a href="Products.html">Products</a></li>
+		  <li class="contact"><a href="Contact.html">Contact</a></li>
+		  <li id="user-cart">Your Cart (0)</li>
+		</ul>
+	</div>
+
+	<!--paragraph-->
+	<h1>Payment</h1>
+
+
+
+	<h3>Items</h3>
+
+		<div class= "img-general">
+
+			<img alt="header" src="img/placeholder.png" width="150" height="150">	
+
+			<img alt="header" src="img/placeholder.png" width="150" height="150">	
+
+		</div>
+
+	<div class= "grid">
+
+		<div class="paragraph-payments">
+
+				<p>Sub Total: </p>
+
+		</div>
+
+
+		<div class="grid-col-5of10">
+		<h3>Payment Method<h3>
+
+		
+		<!-- Credit Card Number Field "card number" text could be outside/above? -->
+		<form class ="text-input-field">
+				
+				<p><input type="text" value="Card Number" cols="80" rows="10"></p>
+	    
+	    </form>
+
+	    <!-- Credit Card Icons (Visa, MasterCard, American Express, Paypal etc) -->
+
+			<img alt="icon" src="img/placeholder.png" width="30" height="30">
+			<img alt="icon" src="img/placeholder.png" width="30" height="30">
+			<img alt="icon" src="img/placeholder.png" width="30" height="30">	
+			<img alt="icon" src="img/placeholder.png" width="30" height="30">	
+
+
+
+		<!-- We will have to make these dropdowns later -->
+
+		<form class ="text-input-field">
+				
+			<p><input type="text" value="Expiration Month" cols="80" rows="10"></p>
+			<p><input type="text" value="Expiration Year" cols="80" rows="10"></p>
+			<p><input type="text" value="CSV Number" cols="80" rows="10"></p>
+
+	    
+	    </form>
+
+		<h3>Shipping Method</h3>
+
+	    	<div class="radio-btn">
+	        
+	       <p>Etiam placerat, tortor ut aliquam<input type="checkbox" value="Free shipping (5-10 days)" id="radio-btn" name="radio"/></p>
+
+	        <p>Etiam placerat, tortor ut aliquam<input type="checkbox" value="Expediated (2-3 days) $9.95" id="radio-btn" name="radio" /></p>
+	        	
+	        <p>Etiam placerat, tortor ut aliquam<input type="checkbox" value="One-Day $18.95" id="radio-btn" name="radio" /></p>
+
+	    	</div>
+
+
+		</div>
+
+	    <!-- Supposed to be checkboxes or radio buttons that give 3-4 options + their extra price -->
+
+
+	    <div class="grid-col-5of10">
+	    
+
+	    <!-- Most likely need a different type of form for Billing & Shipping -->
+
+	    <h3>Billing Address</h3>
+
+	    <form class ="text-input-field">
+				
+			<p><input type="text" value="First Name" cols="80" rows="10"></p>
+			<p><input type="text" value="Last Name" cols="80" rows="10"></p>
+			<p><input type="text" value="Street Address 1" cols="80" rows="20"></p>
+			<p><input type="text" value="Address 2 (Apt #, Suite, Floor)" cols="80" rows="10"></p>
+			<p><input type="text" value="City" cols="80" rows="10"></p>
+			<p><input type="text" value="State/Province" cols="80" rows="10"></p>
+			<p><input type="text" value="Zip/Postal Code" cols="80" rows="10"></p>
+			<p><input type="text" value="Country" cols="80" rows="10"></p>
+			<p><input type="text" value="Email Address" cols="80" rows="10"></p>
+			<p><input type="text" value="Phone Number" cols="80" rows="10"></p>
+
+	    
+	    </form>
+	    </div>
+
+	</div>
+
+	<div class="grid">
+<!--buttons-->
+		<div>
+			<a href="Cart.html"><label class="btn-submit">Back to Cart</label></a>
+			<a href="Final-Order.html"><label class="btn-submit">Order</label></a>
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>
