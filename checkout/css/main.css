@@ -1,0 +1,87 @@
+.section {
+border: 0.1em solid grey;
+padding:0.2em;
+margin:0.4em;
+}
+.card-type-container img {
+ margin-right:0.4em;
+ margin-top:0.25em;
+}
+
+img {
+vertical-align: top;
+}
+
+.text {
+  display: block;
+  margin: 0;
+  width: 30%;
+  font-family: sans-serif;
+  font-size: 1.1em;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+ }
+ 
+ .text{
+   outline: none;
+}
+  
+ .text:focus {
+   outline: none;
+   border: solid 0.3em #969696;
+   border-radius:none;
+}
+ /* Can have either a thick border or Glow for the input boxes, see if you like thicker border 
+ .thick-border-style {
+   padding: 0.6em;
+   border: solid 0.3em #c9c9c9;
+   transition: border 0.3s;
+}
+.thick-border-style:focus,
+.thick-border-style.focus {
+   border: solid 0.3em #969696;
+}
+*/
+.glow-style {
+  padding: 0.6em;
+  border: solid 0.06em #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+.glow-style:focus,
+.glow-style.focus {
+  border: solid 0.06em #707070;
+  box-shadow: 0 0 0.3em 0.06em #969696;
+}
+
+
+.card-expiration select{
+  color: #666;
+  width:30%;
+  border: none;
+  margin: 0 0 0 0;
+  padding: 0.4em 0.5em;
+  appearance:none;
+  box-shadow:none;
+  border-radius:none;
+ }
+ 
+ .card-expiration  select {
+	outline: none;
+ 
+ }
+ 
+ .card-expiration select:focus {
+   outline: none;
+   border: solid 0.1em #969696;
+   border-radius:none;
+ }
+ 
+ .shipping-option-list {
+	list-style-type: none;
+ }
+ 
+ 
+ 
+
