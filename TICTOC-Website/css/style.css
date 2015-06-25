@@ -45,13 +45,41 @@ h1, h3{
 	background-color: #c5a550; 
 }
 
+.header{
+	width:100%;
+	
+	
+	text-align: right;
+
+}
+
+.header-content{
+	margin-left: auto;
+	margin-right: auto;
+	width:80%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.header-item{
+	text-decoration: none;
+	padding-left: 1em;
+
+	font-size: 0.8em;
+}
 /*site logo*/
 .site-logo{
 	margin-left: auto;
 	margin-right: auto;
 	width:50%;
+	text-align: center;
 
 	margin-top: 2em;
+}
+
+img{
+	height: auto;
+	max-width:100%;
 }
 
 /*navigation*/
@@ -59,24 +87,24 @@ h1, h3{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1em;
-	margin-bottom: 3em;
-	width: 50%;
+	margin-bottom: 1em;
+	width: 80%;
 	list-style-type: none;
 	text-align:center;
 	padding:0;
-	border-top:0.1em solid gray;
-	border-bottom: 0.1em solid gray;
+
+	border-top: 0.1em solid gray;
  }
 
-.nav ul, li{
-	padding:0;
-	margin:0;
-	font-size: 0.8em;
-}
+ .nav ul{
+ 	padding: 1em;
+ 	margin:0;
+
+ }
 
 .nav a {
 	text-decoration: none;
-	color: gray;
+	color: black;
 	display: block;
 	transition: .3s background-color;
 }
@@ -91,18 +119,16 @@ h1, h3{
 	color:blue;
 }
 
+.home, .updates, .products, .about{
+	border-right: 0.08em solid gray;
+}
+
 @media screen and (min-width: 40em) {
   .nav li {
-    width: 7em;
-    border-bottom: none;
-    height: 3em;
-    line-height: 3em;
-    font-size: 1.4em;
-  }
- 
-  .nav li {
+    font-size: 1.2em;
+    padding:0 1em 0 1em;
+
     display: inline-block;
-    margin-right: 0.25em;
   }
 
 
@@ -141,7 +167,8 @@ h1, h3{
 
 
 .grid-col-5of10 {
-	width: 50%;
+	width:25%;
+	padding:1em;
 
 }
 
@@ -149,19 +176,6 @@ h1, h3{
 @media (max-width: 50em) {
 
 	.grid-col-5of10 {
-		width: 100%;
-	}
-
-}
-
-
-.grid-col-2of10 {
-	width: 20%;
-}
-
-@media (max-width: 30em) {
-
-	.grid-col-2of10 {
 		width: 100%;
 	}
 
@@ -176,7 +190,7 @@ h1, h3{
 }
 
 .grid{
-	width: 60%;
+	width: 80%;
 	margin: 2em auto 2em auto;
 	text-align: center;
 }
@@ -196,5 +210,22 @@ h1, h3{
 	padding:1em 0 1em 0;
 }
 
+/*product filter*/
 
+.filter-selection{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	text-align: right;
+}
 
+.product-filter{
+	padding-left: 1em;
+
+}
+
+select{
+	padding:0.5em;
+	font-family: "Josefin Slab" serif;
+
+}
