@@ -70,10 +70,20 @@ footer {
 
 }
 
+.btn-submit:active{
+	border:0.1em solid #DDCB9A;
+	color: white;
+	background-color: #DDCB9A; 
+	transition: .3s background-color;
+
+}
+
+
 .btn-cart{
 	padding:1em;
 	display: inline-block;
 	text-align: center;
+	border:0.1em solid green;
 	background-color: green;
 	color: white;
 
@@ -82,12 +92,20 @@ footer {
 .btn-cart:hover{
 	padding:1em;
 	display: inline-block;
+	border:0.1em solid green;
 	text-align: center;
 	background-color:white;
 	color: green;
 	transition: .3s background-color;
+}
 
-
+.btn-cart:active{
+	padding:1em;
+	display: inline-block;
+	border:0.1em solid green;
+	text-align: center;
+	background-color:#d7ffd7;
+	transition: .3s background-color;
 }
 
 
@@ -103,14 +121,21 @@ footer {
 	width:80%;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	color:black;
+	font-size: 0.8em;
 }
 
 .header-item{
 	text-decoration: none;
 	padding-left: 1em;
-	color:black;
-	font-size: 0.8em;
+	
 }
+
+.header-item:hover{
+	color:#caae61;
+	transition: .3s color;
+}
+
 /*site logo*/
 .site-logo{
 	margin-left: auto;
@@ -308,6 +333,13 @@ img{
 	color: #61abb6;
 	border:0.1em solid #61abb6;
 	transition: .3s background-color;
+}
+
+.btn-remove:active{
+	background-color:#A0CCD3;
+	color: white;
+	border:0.1em solid #61abb6;
+	transition: .5s background-color;
 }
 
 table{
