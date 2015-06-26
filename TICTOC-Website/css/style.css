@@ -389,11 +389,7 @@ select{
 	appearance:none;
 	box-shadow:none;
 	border-radius:none;
-}
- 
-.card-expiration  select {
-	outline: none;
- 
+	outline: 0.08em solid #dcdcdc; 
 }
  
 .card-expiration select:focus {
