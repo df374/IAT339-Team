@@ -291,3 +291,96 @@ select{
 	font-family: "Josefin Slab" serif;
 
 }
+
+
+
+/*billing information css*/
+
+.payment-grid .grid-col-5of10{
+	padding:0.2em;
+}
+
+.payment-grid .checkout-nav{
+
+}
+
+.section {
+	border: 0.1em solid gray;
+	padding:1.5em;
+	margin:0em;
+	text-align: left;
+}
+
+.section-checkout{
+	padding:1.5em;
+	margin:0em;
+	text-align: left;
+	background-color: #f2f2f2;
+
+}
+
+.card-type-container img {
+	margin-right:0.4em;
+	margin-top:0.25em;
+}
+
+.text {
+	display: block;
+	margin: 0;
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 1.1em;
+	appearance: none;
+	box-shadow: none;
+	border-radius: none;
+	outline: none;
+
+	font-family: "Josefin Slab" serif;
+	font-size: 1em;
+}
+  
+.text:focus {
+	outline: none;
+	border: solid 0.3em #969696;
+	border-radius:none;
+}
+
+.glow-style {
+	padding: 0.6em;
+	border: solid 0.06em #dcdcdc;
+	transition: box-shadow 0.3s, border 0.3s;
+}
+
+.glow-style:focus,
+.glow-style.focus {
+	border: solid 0.06em #707070;
+	box-shadow: 0 0 0.3em 0.06em #969696;
+}
+
+
+.card-expiration select{
+	color: #666;
+	width:80%;
+	border: none;
+	margin: 0 0 0 0;
+	padding: 0.4em 0.5em;
+	appearance:none;
+	box-shadow:none;
+	border-radius:none;
+}
+ 
+.card-expiration  select {
+	outline: none;
+ 
+}
+ 
+.card-expiration select:focus {
+	outline: none;
+	border: solid 0.1em #969696;
+	border-radius:none;
+}
+ 
+.shipping-option-list {
+	list-style-type: none;
+	padding: 0;
+}
