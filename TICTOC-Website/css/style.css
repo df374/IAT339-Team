@@ -30,6 +30,12 @@ body {
 
 }
 
+.underline-wide{
+	border-bottom: 0.1em solid gray ;
+	width:100%;
+
+}
+
 .text-border{
 	border-bottom: 0.1em solid gray ;
 }
