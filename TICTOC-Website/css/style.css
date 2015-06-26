@@ -18,16 +18,16 @@ body {
 
 }
 
-h1, h3{
-	font-weight: 300;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 2em;
-	width: 40%;
-	border-bottom: 0.05em solid gray;
-
-	text-align: center;
+.text-border{
+	border-bottom: 0.1em solid gray ;
+	border-top: 0.1em solid gray ;
 }
+
+
+.content-box{
+	text-align: left;
+}
+
 
 /*buttons*/
 
@@ -44,6 +44,18 @@ h1, h3{
 	color: #ffffff;
 	background-color: #c5a550; 
 }
+
+.btn-cart{
+	padding:1em;
+	display: inline-block;
+	text-align: center;
+	background-color: green;
+	color: white;
+
+}
+
+
+
 
 .header{
 	width:100%;
@@ -64,7 +76,7 @@ h1, h3{
 .header-item{
 	text-decoration: none;
 	padding-left: 1em;
-
+	color:black;
 	font-size: 0.8em;
 }
 /*site logo*/
@@ -124,29 +136,29 @@ img{
 }
 
 @media screen and (min-width: 40em) {
-  .nav li {
-    font-size: 1.2em;
-    padding:0 1em 0 1em;
+	  .nav li {
+	    font-size: 1.1em;
+	    padding:0 1em 0 1em;
 
-    display: inline-block;
-  }
+	    display: inline-block;
+	  }
 
 
- .nav #user-cart{
-  	font-size: 1em;
-  	font-style: italic;
-  }
+	 .nav #user-cart{
+	  	font-size: 1em;
+	  	font-style: italic;
+	  }
 
-.search-bar{
-	margin-left: auto;
-	margin-right: auto;
-	width:50%;
+	.search-bar{
+		margin-left: auto;
+		margin-right: auto;
+		width:50%;
 
-	margin-top: 2em;
-	text-align: right;
+		margin-top: 2em;
+		text-align: right;
 
+	}
 }
-
 
 /*product grid __reference from in class examples and material*/
 
@@ -161,16 +173,22 @@ img{
 
 [class^='grid-col-'] {
 	float: left;
-
 	text-align: center; 
 }
 
 
-.grid-col-5of10 {
+.grid-col-2of10 {
 	width:25%;
 	padding:1em;
 
 }
+
+.grid-col-5of10 {
+	width:50%;
+	padding:1em;
+
+}
+
 
 
 @media (max-width: 50em) {
@@ -178,6 +196,11 @@ img{
 	.grid-col-5of10 {
 		width: 100%;
 	}
+
+		.grid-col-2of10 {
+		width: 100%;
+	}
+
 
 }
 
