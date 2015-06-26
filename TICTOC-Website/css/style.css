@@ -121,6 +121,11 @@ img{
 	border-top: 0.1em solid gray;
  }
 
+.nav .link-active{
+	background-color: white;
+	color: #e2d2a7;
+}
+
  .nav ul{
  	padding: 1em;
  	margin:0;
