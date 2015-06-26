@@ -58,12 +58,16 @@ footer {
 	text-align: center;
 	color: #ffffff;
 	background-color: #caae61; 
+	border:0.1em solid #caae61;
 	
 }
 
 .btn-submit:hover{
+	border:0.1em solid #caae61;
 	color: #caae61;
 	background-color: white; 
+	transition: .3s background-color;
+
 }
 
 .btn-cart{
@@ -72,6 +76,17 @@ footer {
 	text-align: center;
 	background-color: green;
 	color: white;
+
+}
+
+.btn-cart:hover{
+	padding:1em;
+	display: inline-block;
+	text-align: center;
+	background-color:white;
+	color: green;
+	transition: .3s background-color;
+
 
 }
 
@@ -283,6 +298,7 @@ img{
 .btn-remove{
 	text-decoration: none;
 	background-color: #61abb6;
+	border:0.1em solid #61abb6;
 	color: white;
 	padding: 0.5em;
 }
@@ -290,6 +306,8 @@ img{
 .btn-remove:hover{
 	background-color: white;
 	color: #61abb6;
+	border:0.1em solid #61abb6;
+	transition: .3s background-color;
 }
 
 table{
