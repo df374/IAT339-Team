@@ -9,12 +9,24 @@ body {
 	background: white;
 }
 
+.h-thin{
+	font-weight: 300;
+}
+
 .paragraph-general{
 	margin-left: auto;
 	margin-right: auto;
 	width:50%;
 
 	padding: 1em;
+
+}
+
+.paragraph-wide{
+
+	text-align: left;
+	padding:0;
+	margin:0;
 
 }
 
@@ -54,12 +66,8 @@ body {
 }
 
 
-
-
 .header{
-	width:100%;
-	
-	
+	width:100%;	
 	text-align: right;
 
 }
