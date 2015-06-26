@@ -22,56 +22,69 @@
 
 	<!--Logo Banner above Navigation Menu-->
 
-	<div class="search-bar">
-			<label>Search <input/></label>
+	<div>
+	      <div class = "header">
+	        <div class = "header-content">
+	            
+	            <a class="header-item" href="#">Sign Up/Log In</a>
+	            <a class="header-item" href="#">Cart (0)</a>
+	            <label class="header-item">Search <input/></label>
+	        </div>  
+	      </div>
+	  </div>
+
+
+	    
+	  <div class="site-logo">
+	    
+	      <img alt="header" src="img/siteLogo.png" width="300" height="201">  
+
+	  </div>
+
+	    <!--nav bar-->
+	  <div class="nav">
+	    <ul>
+	      <li class="home"><a href="Main.html">Home</a></li>
+	      <li class="updates"><a href="Products.html">Events</a></li>
+	      <li class="products"><a href="Products.html">Shop</a></li>
+	      <li class="about"><a href="About.html">About</a></li>
+	      <li class="contact"><a href="Contact.html">Contact</a></li>
+	    </ul>
+	  </div>
+
+
+	<div class="grid">
+		<table class="checkout-table">
+
+			<tr>
+				<td></td>
+				<td class="product-cart-name"></td>
+				<td class="product-cart-total">Price</td>
+				<td class="product-cart-total">Quantity</td>
+				<td class="product-cart-total">Remove</td>
+				<td class="product-cart-total">Total</td>
+				
+			</tr>
+
+			<tr>
+				<td><img alt="product img" src="img/clock_metal.jpg" width="150" height="150"></td>
+				<td class="product-cart-name">METAL CLOCK - STAINLESS STEEL</td>
+				<td class="product-cart-price">$39.99</td>
+				<td class="product-cart-quantity"><input size="3"/></td>
+				<td class="product-cart-remove"><a class="btn-remove" href="Products.html">Remove</a></td>
+				<td class="product-cart-total">$39.99</td>
+				
+			</tr>
+		</table>
 	</div>
-		
-	<div class="site-logo">
-		
-    	<img alt="header" src="img/placeholder.png" width="680" height="50">	
-
-	</div>
-
-    <!--nav bar-->
-	<div class="nav">
-		<ul>
-		  <li class="home"><a href="#">Home</a></li>
-		  <li class="about"><a href="About.html">About</a></li>
-		  <li class="products"><a href="Products.html">Products</a></li>
-		  <li class="contact"><a href="Contact.html">Contact</a></li>
-		  <li id="user-cart">Your Cart (0)</li>
-		</ul>
-	</div>
-
-
-	<h1>Cart</h1>
 
 
 	<div class="grid">
-
-	<img alt="product img" src="img/placeholder.png" width="400" height="400">
-
-<!-- I like the Cart that is styled within that site we are using for inspiration, so later maybe going more towards that..Large Image, info neatly beside-->
-	
-	<h3>Product Name</h3>
-
-		<div class="grid-col-5of10">
-		<!--Quantity can be small input box, but we will have to add an "Enter" function to make it update later-->
-		<p>Quantity<input type="text" value="1" cols="80" rows="10"></p>
-		<a href="Cart.html" class="text-link">Cancel Selection</a> 
-		<!--In-text link- no text decoration, just colour-->
+		<div class="checkout-nav">
+			<a href="Products.html"><label class="btn-submit">Continue Shopping</label></a>
+			<a href="Payment.html"><label class="btn-submit">Checkout</label></a>
+			
 		</div>
-
-		<div class="grid-col-5of10">
-			<p>Total: $ </p>
-		</div>
-	
-	</div>
-
-	<div class="grid">
-		<a href="Products.html"><label class="btn-submit">Continue Shopping</label></a>
-		<a href="Payment.html"><label class="btn-submit">Checkout</label></a>
-		
 	</div>
 
 </body>
