@@ -401,7 +401,6 @@ select{
 	width: 100%;
 	font-family: sans-serif;
 	font-size: 1.1em;
-	appearance: none;
 	box-shadow: none;
 	border-radius: none;
 	outline: none;
@@ -435,7 +434,6 @@ select{
 	border: none;
 	margin: 0 0 0 0;
 	padding: 0.4em 0.5em;
-	appearance:none;
 	box-shadow:none;
 	border-radius:none;
 	outline: 0.08em solid #dcdcdc; 
