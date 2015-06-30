@@ -52,10 +52,20 @@ footer {
 
 /*buttons*/
 
-.btn-submit{
+/*cart*/
+
+.btn-cart, .btn-submit{
+	
+	font-size: 0.8em;
+	text-transform: uppercase;
+	width:8em;
 	padding:1em;
+	margin: 0.3em;
 	display: inline-block;
 	text-align: center;
+
+}
+.btn-submit{
 	color: #ffffff;
 	background-color: #caae61; 
 	border:0.1em solid #caae61;
@@ -80,9 +90,6 @@ footer {
 
 
 .btn-cart{
-	padding:1em;
-	display: inline-block;
-	text-align: center;
 	border:0.1em solid green;
 	background-color: green;
 	color: white;
@@ -307,6 +314,16 @@ img{
 
 }
 
+/*events page*/
+.event-detail-text{
+	margin-top: 0;
+	text-align: left;
+}
+
+.event-detail-h{
+	margin-bottom: 0.5em;
+}
+
 
 /*product cart*/
 .product-cart-name{
@@ -340,6 +357,7 @@ img{
 	border:0.1em solid #61abb6;
 	transition: .5s background-color;
 }
+
 
 table{
 	text-align: left;
