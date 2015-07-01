@@ -13,6 +13,7 @@ footer {
     display: block;
 }
 
+
 .h-thin{
 	font-weight: 300;
 }
@@ -157,6 +158,37 @@ footer {
 img{
 	height: auto;
 	max-width:100%;
+}
+
+/*Darken/Lighten the clock itself on Hover*/
+
+img:hover {
+	opacity:0.9;
+}
+
+
+
+/*Darken Image on Hover (Products)*/
+a.darken {
+    display: inline-block;
+    background: black;
+    padding: 0;
+    opacity:1;
+}
+
+a.darken img {
+    display: block;
+
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+a.darken:hover img {
+    opacity: 0.6;
+
 }
 
 /*navigation*/
