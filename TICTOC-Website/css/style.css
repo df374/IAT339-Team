@@ -167,6 +167,23 @@ img:hover {
 }
 
 
+.about-img {
+ position:relative;
+ width:100%;
+}
+
+.about-img p {
+	position:absolute;
+	top:14em;
+	left:0;
+	width:100%;
+	color:white;
+}
+
+#about-container p {
+	
+	background-color:rgba(0, 0, 0, 0.5);
+}
 
 /*Darken Image on Hover (Products)*/
 a.darken {
