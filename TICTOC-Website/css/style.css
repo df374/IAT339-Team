@@ -163,7 +163,7 @@ img{
 /*Darken/Lighten the clock itself on Hover*/
 
 img:hover {
-	opacity:0.9;
+	opacity:0.3;
 }
 
 
@@ -179,15 +179,15 @@ a.darken {
 a.darken img {
     display: block;
 
-    -webkit-transition: all 0.5s linear;
-       -moz-transition: all 0.5s linear;
-        -ms-transition: all 0.5s linear;
-         -o-transition: all 0.5s linear;
-            transition: all 0.5s linear;
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
 }
 
 a.darken:hover img {
-    opacity: 0.6;
+    opacity: 0.8;
 
 }
 
