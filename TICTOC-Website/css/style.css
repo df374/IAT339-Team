@@ -172,16 +172,17 @@ img:hover {
  width:100%;
 }
 
-.about-img p {
+.about-img .about-text {
 	position:absolute;
-	top:14em;
-	left:0;
-	width:100%;
+	top:2em;
+	right:0em;
+	width:50%;
 	color:white;
+	text-align: left;
 }
 
-#about-container p {
-	
+#about-container .about-text{
+	padding:0.5em;
 	background-color:rgba(0, 0, 0, 0.5);
 }
 
