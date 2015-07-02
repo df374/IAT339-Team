@@ -28,11 +28,7 @@ footer {
 }
 
 .paragraph-wide{
-
 	text-align: left;
-	padding:0;
-	margin:0 0 4em 0;
-
 }
 
 .underline-wide{
@@ -346,6 +342,17 @@ a.darken:hover img {
 	padding:1em;
 
 }
+
+
+.grid-col-2of10-main{
+	width:25%;
+	padding:0;
+}
+
+.grid-col-2of10-main figure{
+	margin:1.5em;
+}
+
 
 
 
