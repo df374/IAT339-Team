@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <title>TICTOC Style Guide</title>
+    <title>TICTOC Pattern Library</title>
 
 
     <link rel="stylesheet" href="css/style.css">
@@ -19,7 +19,7 @@
 
 	<section class="main-content">
 		
-		<h1 class="title">TICTOC Style Guide</h1>
+		<h1 class="title">TICTOC Pattern Library</h1>
 		<img src="img/siteLogo.png" alt="logo" width="300" height="201">
 		
 		
@@ -54,15 +54,50 @@
 
 		</div>
 
+		<!--Header-->
+		<div class="patterns-container" id="header">
+			
+			<div class="patterns-heading">
+				<h3 class="pattern-names">Header</h3>
+			</div>
 
-		<div class="patterns-container">
+			<div class="sample-pattern">
+
+				<!--Logo Banner above Navigation Menu-->
+				<div>
+				  <div class = "header">
+				    <div class = "header-content">
+				        
+				        <a class="header-item account" href="#">Sign Up/Log In</a>
+				        <a class="header-item" href="#">Cart (0)</a>
+				        <label class="header-item">Search <input/></label>
+				    </div>  
+				  </div>
+				</div>
+			
+
+			</div>
+
+			<div class="sample-code">
+				<h4 class="code-example">Code Sample</h4>
+				<code>&lt;div&gt; &lt;div class = &quot;header&quot;&gt; &lt;div class = &quot;header-content&quot;&gt; &lt;a class=&quot;header-item account&quot; href=&quot;#&quot;&gt;Sign Up/Log In&lt;/a&gt; &lt;a class=&quot;header-item&quot; href=&quot;#&quot;&gt;Cart (0)&lt;/a&gt; &lt;label class=&quot;header-item&quot;&gt;Search &lt;input/&gt;&lt;/label&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;</code>
+			</div>
+
+		</div>
+
+
+
+		<div class="patterns-container" id="grid">
 			
 			<div class="patterns-heading">
 				<h3 class="pattern-names">Grid</h3>
 			</div>
 
 			<div class="sample-pattern">
-				<!--nav bar-->
+
+				<div class="grid-col-2of10">
+
+				</div>
 			
 
 			</div>
@@ -77,28 +112,34 @@
 
 		<!--Typography-->
 		
-		<div class="patterns-container">
+		<div class="patterns-container" id="typeface">
 			
 			<div class="patterns-heading">
 				<h3 class="pattern-names">Typography</h3>
 			</div>
 
-			<div class="sample-pattern">
-				<!--nav bar-->
+			<div class="sample-pattern" id="typography">
+				<!--type-->
+				<ul>
+					<li style="font-family: 'Josefin Slab', serif">Josefin-Slab: <a href="https://www.google.com/fonts#UsePlace:use/Collection:Josefin+Slab">View Google Font</a></li>
+					<li style="font-family: 'Josefin Slab', serif">Body Text: Josefin-Slab Normal
+						
+					</li>
+				</ul>
 			
 
 			</div>
 
 			<div class="sample-code">
 				<h4 class="code-example">Code Sample</h4>
-				<code></code>
+				<code>&lt;link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'&gt;</code>
 			</div>
 
 		</div>
 
 		<!--Colours-->
 		
-		<div class="patterns-container">
+		<div class="patterns-container" id="colour">
 			
 			<div class="patterns-heading">
 				<h3 class="pattern-names">Colours</h3>
@@ -119,7 +160,7 @@
 
 			<!--Headings-->
 		
-		<div class="patterns-container">
+		<div class="patterns-container" id="heading">
 			
 			<div class="patterns-heading">
 				<h3 class="pattern-names">Headings</h3>
@@ -140,7 +181,7 @@
 
 			<!--images-->
 		
-		<div class="patterns-container">
+		<div class="patterns-container" id="banner-img">
 			
 			<div class="patterns-heading">
 				<h3 class="pattern-names">Images-Banner</h3>
@@ -161,7 +202,7 @@
 
 		<!--Paragraphs-->
 
-		<div class="patterns-container">
+		<div class="patterns-container" id="paragraph">
 			
 			<div class="patterns-heading">
 				<h3 class="pattern-names">Paragraphs</h3>
@@ -182,7 +223,7 @@
 
 			<!--Articles-->
 		
-		<div class="patterns-container">
+		<div class="patterns-container" id="article">
 			
 			<div class="patterns-heading">
 				<h3 class="pattern-names">Articles</h3>
@@ -203,10 +244,31 @@
 
 		<!--Copyright-->
 		
-		<div class="patterns-container">
+		<div class="patterns-container" id="copyright">
 			
 			<div class="patterns-heading">
 				<h3 class="pattern-names">Copyright</h3>
+			</div>
+
+			<div class="sample-pattern" id="copyright">
+				<div id="copyright"> <ul> <li>©2015 TicToc Inc. All rights reserved.</li> </ul> </div>
+			
+
+			</div>
+
+			<div class="sample-code">
+				<h4 class="code-example">Code Sample</h4>
+				<code>&lt;div id=&quot;copyright&quot;&gt; &lt;ul&gt; &lt;li&gt;&copy;2015 TicToc Inc. All rights reserved.&lt;/li&gt; &lt;/ul&gt; &lt;/div&gt;</code>
+			</div>
+
+		</div>
+
+		<!--Icons-->
+		
+		<div class="patterns-container" id="icon">
+			
+			<div class="patterns-heading">
+				<h3 class="pattern-names">Icons</h3>
 			</div>
 
 			<div class="sample-pattern">
@@ -221,6 +283,113 @@
 			</div>
 
 		</div>
+
+		<!-- Links -->
+
+		<div class="patterns-container" id="link">
+			
+			<div class="patterns-heading">
+				<h3 class="pattern-names">Links</h3>
+			</div>
+
+			<div class="sample-pattern">
+				
+			
+
+			</div>
+
+			<div class="sample-code">
+				<h4 class="code-example">Code Sample</h4>
+				<code></code>
+			</div>
+
+		</div>
+
+			<!-- Buttons -->
+
+		<div class="patterns-container" id="button">
+			
+			<div class="patterns-heading">
+				<h3 class="pattern-names">Buttons</h3>
+			</div>
+
+			<div class="sample-pattern">
+				
+			
+
+			</div>
+
+			<div class="sample-code">
+				<h4 class="code-example">Code Sample</h4>
+				<code></code>
+			</div>
+
+		</div>
+
+		<!-- Forms -->
+
+		<div class="patterns-container" id="form">
+			
+			<div class="patterns-heading">
+				<h3 class="pattern-names">Forms</h3>
+			</div>
+
+			<div class="sample-pattern">
+				
+			
+
+			</div>
+
+			<div class="sample-code">
+				<h4 class="code-example">Code Sample</h4>
+				<code></code>
+			</div>
+
+		</div>
+
+			<!-- Inputs -->
+
+		<div class="patterns-container" id="input">
+			
+			<div class="patterns-heading">
+				<h3 class="pattern-names">Input Field</h3>
+			</div>
+
+			<div class="sample-pattern">
+				
+			
+
+			</div>
+
+			<div class="sample-code">
+				<h4 class="code-example">Code Sample</h4>
+				<code></code>
+			</div>
+
+		</div>
+
+			<!-- Lists -->
+
+		<div class="patterns-container" id="list">
+			
+			<div class="patterns-heading">
+				<h3 class="pattern-names">Lists</h3>
+			</div>
+
+			<div class="sample-pattern">
+				
+			
+
+			</div>
+
+			<div class="sample-code">
+				<h4 class="code-example">Code Sample</h4>
+				<code></code>
+			</div>
+
+		</div>
+
+
 
 
 
