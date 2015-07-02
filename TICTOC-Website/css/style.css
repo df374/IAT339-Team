@@ -197,6 +197,13 @@ figure:hover .product-detail-text{
 	display: block;
 }
 
+figure:active .product-detail-text .product-text {
+
+	color: #B3B3B3;
+
+}
+
+
 .product-detail-text {
 	position:relative;
 	width: 100%;
