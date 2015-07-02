@@ -8,3 +8,74 @@ body {
 	padding:0;
 	background: white;
 }
+
+/*
+.Main-Nav-Container {
+	background-color:darkgrey;
+	padding:0.2em;
+	height:100%;
+	position:fixed;
+}
+
+#Vertical-Nav{
+	line-height: 2em;
+	padding:0.4em;
+}
+
+#Vertical-Nav ul li {
+	position:relative;
+	list-style-type: none;
+	padding:0.1em;
+	margin-right:1.5em;
+}
+
+#Vertical-Nav a {
+	text-decoration: none;
+	color:white;
+}
+*/
+
+
+.patterns-heading {
+
+  color: #45555B;
+  background-color: #EDECEC;
+  text-shadow: 1px 1px 0 rgba(255,255,255,.4);
+  padding: 0.1em 1%;
+  width: 90%;
+  overflow: hidden;
+  display: block;
+  border: 0.1em solid;
+  margin-left: 3%;
+  border-color: lightgrey;
+  border-radius: 0.2em 0.2em 0 0;
+}
+
+.sample-pattern {
+
+  display:block;
+  padding: 6em 0.72em;
+  background-color: #fff;
+  border: 0.1em solid;
+  border-color: #e5e5e5;
+  border-radius: 0 0 0.2em 0.2em;
+  border-top: 0;
+  width: 90%;
+  margin-left: 3%;
+  float: left;
+ }
+
+.sample-code {
+
+  display:block;
+  padding: 0.3em 0.72em;
+  background-color: #fff;
+  border: 0.1em solid;
+  border-color: #e5e5e5;
+  border-radius: 0 0 0.2em 0.2em;
+  border-top: 0;
+  width: 90%;
+  margin-left: 3%;
+  float: left;
+}
+
