@@ -1,0 +1,172 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Payment</title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+
+
+	<body>
+
+		<div>
+	      <div class = "header">
+	        <div class = "header-content">
+	            
+	            <a class="header-item" href="#">Sign Up/Log In</a>
+	            <a class="header-item" href="#">Cart (0)</a>
+	            <label class="header-item">Search <input/></label>
+	        </div>  
+	      </div>
+	    </div>
+
+
+	    
+	  <div class="site-logo">
+	    
+	      <a href="Main.html"><img alt="header" src="img/siteLogo.png" width="300" height="201"></a>
+
+	  </div>
+
+	    <!--nav bar-->
+	  <div class="nav"></div>
+
+
+	  <div class="grid">
+	  	<div class="payment-grid">
+		  	<div class="grid-col-5of10">
+
+				<div class="section">
+				
+					<h3 class="payment-info-icon">Payment Info</h3>
+
+					<label>
+						<input class="text thick-border-style glow-style" placeholder="Card Number:"/>
+					</label>
+
+					<div class="card-type-container">
+						<img alt="VISA" src="img/visa-icon.png" width:"32" height:"32">
+						<img alt="MASTERCARD" src="img/mastercard-icon.png">
+						<img alt="AMEX" src="img/amex-icon.png">
+						<img alt="PAYPAL" src="img/paypal-icon.png">
+					</div>
+
+
+
+					<div class="card-expiration">
+
+						<label class="expiration-month">
+							<h3>Expiration Month</h3>
+							<select class="month glow-style" name="month">
+								<option>Select..</option>
+								<option value="January">01 Jan</option>
+								<option value="February">02 Feb</option>
+								<option value="March">03 Mar</option>
+								<option value="April">04 Apr</option>
+								<option value="May">05 May</option>
+								<option value="June">06 Jun</option>
+								<option value="July">07 Jul</option>
+								<option value="August">08 Aug</option>
+								<option value="September">09 Sep</option>
+								<option value="October">10 Oct</option>
+								<option value="November">11 Nov</option>
+								<option value="December">12 Dec</option>
+							</select>
+						</label>
+						
+						<label class="expiration-year">
+							<h3>Expiration Year</h3>
+							<select class="year glow-style "name="year">
+								<option>Select..</option>
+								<option value="2015">2015</option>
+								<option value="2016">2016</option>
+								<option value="2017">2017</option>
+								<option value="2018">2018</option>
+								<option value="2019">2019</option>
+								<option value="2020">2020</option>
+								<option value="2021">2021</option>
+								<option value="2022">2022</option>
+								<option value="2023">2023</option>
+								<option value="2024">2024</option>
+								<option value="2025">2025</option>
+							</select>
+						</label>
+					</div>
+
+
+					<div class="card-code">
+						<label class>
+							<h3>Card Security Code (CSC)</h3>
+							<input class="text thick-border-style glow-style" placeholder="CSC:">
+						</label>
+					</div>
+
+					</div>
+				</div>
+
+
+				<!--purchase summary-->
+				<div class="grid-col-5of10">
+					<div class="section-checkout">
+						<h3>Order Summary</h3>
+						<table class="checkout-table">
+
+							<tr>
+								<td></td>
+								<td class="product-cart-name"></td>
+								<td class="product-cart-total">Price</td>
+								
+							</tr>
+
+							<tr>
+								<td><img alt="product img" src="img/clock_metal.jpg" width="150" height="150"></td>
+								<td class="product-cart-name">METAL CLOCK - STAINLESS STEEL</td>
+								<td class="product-cart-price">$39.99</td>				
+							</tr>
+						</table>
+
+					</div>
+				</div>
+
+				<!-- bottom nav buttons -->
+				
+			</div> <!-- end of payment grid class -->
+		</div><!--end of grid class-->
+
+		<div class="grid">
+			<div class="checkout-nav">
+				<div>
+					<a href="Payment.html"><label class="btn-submit">Back</label></a>
+					<a href="Final-Order.html"><label class="btn-submit">Order</label></a>
+				</div>
+
+			</div>
+		</div>
+
+		
+	
+  <footer>  
+    <div id="footer-container">   
+      <div id="copyright">
+          <ul>
+            <li>©2015 TicToc Inc. All rights reserved.</li>
+          </ul>
+      </div>
+    </div>
+  </footer>
+		
+
+</body>
+
+</html>

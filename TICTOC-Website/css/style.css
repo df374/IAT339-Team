@@ -557,7 +557,10 @@ select{
 	padding: 0;
 }
 
+.shipping-speed{
 
+	font-size: 0.8em;
+}
 
 /*footer*/
 #footer-container {
