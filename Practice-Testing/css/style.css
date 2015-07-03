@@ -330,3 +330,79 @@
 		padding-left: 1em;
 
 	}
+
+	/*FORM & TEXTAREA */
+		.content-box{
+		text-align: left;
+	}
+
+	textarea{
+		max-width:100%;
+	}
+
+	.text-input-field textarea{
+		max-width: 60%;
+		max-height: 40%;
+	}
+
+	/*BUTTONS*/
+
+	.btn-cart, .btn-submit{
+		
+		font-size: 0.8em;
+		text-transform: uppercase;
+		width:8em;
+		padding:1em;
+		margin: 0.3em;
+		display: inline-block;
+		text-align: center;
+
+	}
+	.btn-submit{
+		color: #ffffff;
+		background-color: #caae61; 
+		border:0.1em solid #caae61;
+		
+	}
+
+	.btn-submit:hover{
+		border:0.1em solid #caae61;
+		color: #caae61;
+		background-color: white; 
+		transition: .3s background-color;
+
+	}
+
+	.btn-submit:active{
+		border:0.1em solid #DDCB9A;
+		color: white;
+		background-color: #DDCB9A; 
+		transition: .3s background-color;
+
+	}
+
+	.btn-cart{
+		border:0.1em solid green;
+		background-color: green;
+		color: white;
+
+	}
+
+	.btn-cart:hover{
+		padding:1em;
+		display: inline-block;
+		border:0.1em solid green;
+		text-align: center;
+		background-color:white;
+		color: green;
+		transition: .3s background-color;
+	}
+
+	.btn-cart:active{
+		padding:1em;
+		display: inline-block;
+		border:0.1em solid green;
+		text-align: center;
+		background-color:#d7ffd7;
+		transition: .3s background-color;
+	}
