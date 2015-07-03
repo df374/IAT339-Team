@@ -98,6 +98,22 @@
 	  float: left;
 	}
 
+	.css-selector {
+	  
+	  display:block;
+	  padding: 0.3em 0.72em;
+	  background-color: #fff;
+	  border: 0.1em solid;
+	  border-color: #e5e5e5;
+	  border-radius: 0 0 0.2em 0.2em;
+	  border-top: 0;
+	  width: 90%;
+	  margin-left: 3%;
+	  float: left;
+
+
+	}
+
 	/*-----------------------------------------------*/
 
 
@@ -330,6 +346,32 @@
 	}
 
 	/*---------------END OF PARAGRAPHS------------------*/
+
+		/*About Page Text Overlay */
+	.about-img{
+		position:relative;
+		width:100%;
+	}
+
+	.about-img .about-text {
+		position:absolute;
+		top:2em;
+		right:0em;
+		width:80%;
+		color:white;
+		text-align: left;
+	}
+
+	.about-container .about-text{
+		padding:0.5em;
+		background-color:rgba(0, 0, 0, 0.5);
+	}
+
+	/*product detail hover*/
+
+	.product-img:hover{
+		opacity:0.3;
+	}
 
 	/*FIGURE*/
 	figure:hover .product-detail-text{
