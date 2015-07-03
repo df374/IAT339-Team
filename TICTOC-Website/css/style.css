@@ -46,13 +46,14 @@ footer {
 	text-align: left;
 }
 
-textarea{
-	width:100%;
+.text-input-field textarea{
+	width: 100%;
 }
 
-.text-input-field textarea{
+.text-input-field-contact textarea{
 	width: 60%;
 }
+
 /*cart*/
 
 .btn-cart, .btn-submit{
