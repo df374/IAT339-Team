@@ -380,6 +380,10 @@ figure:active .product-detail-text .product-text {
 	.nav-phone{
 		display: block;
 	}
+
+	.content-box{
+		text-align: center;
+	}
 }
 
 
