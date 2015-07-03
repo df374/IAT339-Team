@@ -72,7 +72,7 @@ footer {
 	color:gray;	
 }
 
-.btn-cart, .btn-submit{
+.btn-cart, .btn-submit, .btn-review{
 	
 	font-size: 0.8em;
 	text-transform: uppercase;
@@ -106,10 +106,32 @@ footer {
 
 }
 
+.btn-review {
+	 border:0.1em solid #353D44;
+	 color:#FFF;
+	 background-color:#353D44;
+	
+
+}
+
+.btn-review:hover {
+	border:0.1em solid #353D44;
+	color:#353D44;
+	background-color:#FFF;
+	transition: .3s background-color;
+}
+
+.btn-review:active {
+	border:0.1em solid #888c8e;
+	color:#FFF;
+	background-color:#888c8e;
+	transition: .3s background-color;
+}
+
 
 .btn-cart{
-	border:0.1em solid green;
-	background-color: green;
+	border:0.1em solid #ffc967;
+	background-color: #ffc967;
 	color: white;
 
 }
@@ -117,19 +139,19 @@ footer {
 .btn-cart:hover{
 	padding:1em;
 	display: inline-block;
-	border:0.1em solid green;
+	border:0.1em solid #ffc967;
 	text-align: center;
 	background-color:white;
-	color: green;
+	color: black;
 	transition: .3s background-color;
 }
 
 .btn-cart:active{
 	padding:1em;
 	display: inline-block;
-	border:0.1em solid green;
+	border:0.1em solid #ffc967;
 	text-align: center;
-	background-color:#d7ffd7;
+	background-color:#ffe4b4;
 	transition: .3s background-color;
 }
 
