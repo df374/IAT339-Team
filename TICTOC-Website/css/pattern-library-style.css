@@ -485,13 +485,13 @@
 	color: #ffffff;
 	background-color: #caae61; 
 	border:0.1em solid #caae61;
-}
+	}
 
     .btn-home-product-detail:active{
 	background-color: white; 
 	border:0.1em solid #caae61;
 	color:gray;	
-}
+    }
 
 	.btn-cart, .btn-submit, .btn-review{
 	
@@ -502,6 +502,7 @@
 		margin: 0.3em;
 		display: inline-block;
 		text-align: center;
+		text-decoration: none;
 
 	}
 	.btn-submit{
@@ -531,7 +532,7 @@
 		 border:0.1em solid #3a5d7c;
 		 color:#FFF;
 		 background-color:#3a5d7c;
-		 text-decoration: none;
+		
 	}
 
 	.btn-review:hover {
