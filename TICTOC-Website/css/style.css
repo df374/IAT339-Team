@@ -256,11 +256,11 @@ a.darken:hover img {
 	color: #e2d2a7;
 }
 
- .nav ul{
+.nav ul{
  	padding: 1em;
  	margin:0;
 
- }
+}
 
 .nav a {
 	text-decoration: none;
@@ -277,6 +277,11 @@ a.darken:hover img {
 .nav a.active {
 	background-color:#e2d2a7;
 	color:blue;
+}
+
+.nav-phone select{
+	width:80%;
+	font-size: 1em;
 }
 
 .home, .updates, .products, .about{
@@ -306,10 +311,13 @@ a.darken:hover img {
 		text-align: right;
 
 	}
+
+	.nav-phone{
+		display:none;
+	}
 }
 
 /*product grid __reference from in class examples and material*/
-
 
 
 *, *:after, *:before {
@@ -348,16 +356,22 @@ a.darken:hover img {
 }
 
 
-
-
 @media (max-width: 50em) {
 
 	.grid-col-5of10 {
 		width: 100%;
 	}
 
-		.grid-col-2of10 {
-		width: 100%;
+	.grid-col-2of10 {
+	width: 100%;
+	}
+
+	.nav{
+		display:none;
+	}
+
+	.nav-phone{
+		display: block;
 	}
 
 
