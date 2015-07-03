@@ -107,24 +107,24 @@ footer {
 }
 
 .btn-review {
-	 border:0.1em solid #e4cc89;
+	 border:0.1em solid #3a5d7c;
 	 color:#FFF;
-	 background-color:#e4cc89;
+	 background-color:#3a5d7c;
 	
 
 }
 
 .btn-review:hover {
-	border:0.1em solid #e4cc89;
+	border:0.1em solid #3a5d7c;
 	color:black;
 	background-color:#FFF;
 	transition: .3s background-color;
 }
 
 .btn-review:active {
-	border:0.1em solid #f1e5c3;
+	border:0.1em solid #8babc8;
 	color:#FFF;
-	background-color:#f1e5c3;
+	background-color:#8babc8;
 	transition: .3s background-color;
 }
 
