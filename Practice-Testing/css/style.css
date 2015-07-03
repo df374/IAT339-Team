@@ -305,3 +305,28 @@
 	.paragraph-wide{
 		text-align: left;
 	}
+
+	/*FIGURE*/
+	figure:hover .product-detail-text{
+	display: block;
+	}
+
+	figure:active .product-detail-text .product-text {
+
+		color: #B3B3B3;
+
+	}
+
+	/*PRODUCT FILTER-SELECTION*/
+
+	.filter-selection{
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		text-align: right;
+	}
+
+	.product-filter{
+		padding-left: 1em;
+
+	}
