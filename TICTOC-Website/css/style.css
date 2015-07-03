@@ -531,6 +531,8 @@ select{
 	padding: 0.6em;
 	border: solid 0.06em #dcdcdc;
 	transition: box-shadow 0.3s, border 0.3s;
+
+	font-size: 1em;
 }
 
 .glow-style:focus,
@@ -540,6 +542,9 @@ select{
 }
 
 
+option{
+	font-size: 1em;
+}
 .card-expiration select{
 	color: #666;
 	width:80%;
