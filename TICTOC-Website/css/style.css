@@ -50,7 +50,21 @@ footer {
 }
 
 
-/*cart*/
+/*buttons*/
+
+.btn-home-product-detail{
+	font-size: 0.8em;
+	text-transform: uppercase;
+	width:8em;
+	padding:1em;
+	margin: 0.3em;
+	display: inline-block;
+	text-align: center;
+	width:80%;
+	color: #ffffff;
+	background-color: #caae61; 
+	border:0.1em solid #caae61;
+}
 
 .btn-cart, .btn-submit{
 	
@@ -312,7 +326,7 @@ a.darken:hover img {
 
 	}
 
-	.nav-phone{
+	.nav-phone, .btn-home-product-detail{
 		display:none;
 	}
 }
@@ -366,15 +380,13 @@ a.darken:hover img {
 	width: 100%;
 	}
 
-	.nav{
+	.nav, .home-products{
 		display:none;
 	}
 
 	.nav-phone{
 		display: block;
 	}
-
-
 }
 
 
