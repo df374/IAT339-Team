@@ -312,7 +312,7 @@ figure:active .product-detail-text .product-text {
 
 	}
 
-	.nav-phone, .btn-home-product-detail, .checkout-table-phone{
+	.nav-phone, .btn-home-product-detail, .checkout-table-phone, .header-item-search-phone{
 		display:none;
 	}
 }
@@ -373,7 +373,7 @@ figure:active .product-detail-text .product-text {
 		padding:1em;
 	}
 
-	.nav, .home-products, .filter-selection, .checkout-table{
+	.nav, .home-products, .filter-selection, .checkout-table, .header-item-search-normal{
 		display:none;
 	}
 
