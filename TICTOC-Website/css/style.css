@@ -312,7 +312,7 @@ figure:active .product-detail-text .product-text {
 
 	}
 
-	.nav-phone, .btn-home-product-detail, .checkout-table-phone, .header-item-search-phone{
+	.nav-phone, .nav-phone-header, .btn-home-product-detail, .checkout-table-phone, .header-item-search-phone{
 		display:none;
 	}
 }
