@@ -225,7 +225,7 @@
 
 			<!--Grid-->
 
-			<div class="patterns-container" id="grid">
+			<div class="patterns-container" id="main-grid">
 
 				<div class="patterns-heading">
 					<h3 class="pattern-names">Grid - grid-col-5of10</h3>
@@ -256,14 +256,14 @@
 
 								<form class ="text-input-field">
 									<label>Email (optional)</label>
-									<p><textarea placeholer="input text here" cols="60" rows="2"></textarea> </p>
+									<p><textarea placeholder="input text here" cols="60" rows="2"></textarea> </p>
 								</form>
 
 
 								<!-- Subject or Main Question Box -->
 								<form class ="text-input-field">
 									<label>Review</label>
-									<p><textarea placeholer="input text here" cols="60" rows="10"></textarea> </p>
+									<p><textarea placeholder="input text here" cols="60" rows="10"></textarea> </p>
 								</form>
 
 							</div>
@@ -276,7 +276,7 @@
 					<div class="grid">
 						<!--buttons-->
 						<div class="checkout-nav">
-							<a href="Reviews-Submitted.html"><label class="btn-submit">Submit</label></a>
+							<a class="btn-submit" href="Reviews-Submitted.html">Submit</a>
 						</div>
 					</div>
 
@@ -418,7 +418,7 @@
 			<div class="patterns-container" id="all-imgs">
 
 
-				<div class="patterns-heading" id="banner-img">
+				<div class="patterns-heading" id="banner-img-main">
 					<h3 class="pattern-names" id="banner-img">Images - Banner</h3>
 
 				</div>	
@@ -443,7 +443,7 @@
 
 			<!--images-->
 
-			<div class="patterns-container" id="all-imgs">
+			<div class="patterns-container" id="all-imgs-container">
 
 
 				<div class="patterns-heading" id="event-img">
@@ -503,11 +503,11 @@
 
 			<!--images products-->
 
-			<div class="patterns-container" id="all-imgs">
+			<div class="patterns-container" id="all-imgs-products-container">
 
 
-				<div class="patterns-heading" id="banner-img">
-					<h3 class="pattern-names" id="banner-img">Images - Products</h3>
+				<div class="patterns-heading" id="product-img-head">
+					<h3 class="pattern-names" id="product-img">Images - Products</h3>
 
 				</div>	
 
@@ -542,7 +542,8 @@
 									<p class="product-text">details</p>             
 								</div>
 
-								<a class="product-img" href="Product-Detail.html" class="darken"><img alt="product" src="img/clock_black.jpg" width="400" height="400"></a>
+								<a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_black.jpg" width="400" height="400"></a>
+
 							</figure>
 
 							<h4>Modern Series</h4>
@@ -648,7 +649,7 @@
 								<a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_orange.jpg" width="400" height="400"></a>
 							</figure>
 
-							<h3>Retro Series</h4>
+							<h3>Retro Series</h3>
 								<p>$69.99</p>
 
 							</article>
@@ -672,7 +673,7 @@
 
 				<!--images product details & related-->
 
-				<div class="patterns-container" id="all-imgs">
+				<div class="patterns-container" id="all-imgs-product-detail">
 
 
 					<div class="patterns-heading" id="detail-review-img">
@@ -711,7 +712,8 @@
 
 						<code>&lt;div class=&quot;grid-col-5of10&quot;&gt; &lt;div class= &quot;img-general&quot;&gt; &lt;img src=&quot;img/clock_metal.jpg&quot; alt=&quot;product img&quot; width=&quot;400&quot; height=&quot;400&quot;&gt; &lt;/div&gt; &lt;/div&gt;</code>
 
-						<h4 class"code-example">Code Sample - Related Products</h4>
+						<h4 class="code-example-related-products">Code Sample - Related Products</h4>
+						
 						<code>&lt;div class=&quot;grid-col-5of10&quot;&gt; &lt;h4&gt;Related Products&lt;/h4&gt; &lt;img src=&quot;img/clock_record.jpg&quot; alt=&quot;product img&quot; width=&quot;100&quot; height=&quot;100&quot;&gt; &lt;img src=&quot;img/clock_black.jpg&quot; alt=&quot;product img&quot; width=&quot;100&quot; height=&quot;100&quot;&gt; &lt;img src=&quot;img/clock_noble.jpg&quot; alt=&quot;product img&quot; width=&quot;100&quot; height=&quot;100&quot;&gt; &lt;/div&gt;</code>
 					</div>
 
@@ -720,11 +722,11 @@
 
 				<!--images team-->
 
-				<div class="patterns-container" id="all-imgs">
+				<div class="patterns-container" id="all-imgs-team">
 
 
-					<div class="patterns-heading" id="banner-img">
-						<h3 class="pattern-names" id="banner-img">Images - Team</h3>
+					<div class="patterns-heading" id="profile-img-team">
+						<h3 class="pattern-names" id="team-imgs">Images - Team</h3>
 
 					</div>	
 
@@ -976,7 +978,7 @@
 
 					<div class="sample-pattern">
 
-						<a href="Contact.html"><label class="btn-submit">Submit</label></a>
+						<a class="btn-submit" href="Contact.html">Submit</a>
 
 					</div>
 
@@ -1021,7 +1023,7 @@
 
 				<!-- Buttons Add -->
 
-				<div class="patterns-container" id="button-added">
+				<div class="patterns-container" id="button-added-to-cart">
 
 					<div class="patterns-heading">
 						<h3 class="pattern-names">Buttons-Add To Cart</h3>
@@ -1029,7 +1031,7 @@
 
 					<div class="sample-pattern">
 
-						<a href="#"><label class="btn-cart">ADD TO CART</label></a>
+						<a class="btn-cart" href="#">ADD TO CART</a>
 
 					</div>
 
@@ -1088,18 +1090,18 @@
 						<!-- Enter Email box -->
 						<form class ="text-input-field">
 							<label>Your Email</label>
-							<p><textarea placeholer="input text here" cols="80" rows="2"></textarea> </p>
+							<p><textarea placeholder="input text here" cols="80" rows="2"></textarea> </p>
 						</form>
 
 
 						<!-- Subject or Main Question Box -->
 						<form class ="text-input-field">
 							<label>Message</label>
-							<p><textarea placeholer="input text here" cols="80" rows="10"></textarea> </p>
+							<p><textarea placeholder="input text here" cols="80" rows="10"></textarea> </p>
 						</form>
 
 						<!--buttons-->
-						<a href="#"><label class="btn-submit">Submit</label></a>
+						<a class="btn-submit" href="#">Submit</a>
 
 					</div>
 
@@ -1160,11 +1162,8 @@
 
 						<code>&lt;div class=&quot;payment-grid&quot;&gt; &lt;div class=&quot;grid&quot;&gt; &lt;div class=&quot;grid-col-5of10&quot;&gt; &lt;div class=&quot;section&quot;&gt; &lt;h3&gt;Customer Information&lt;/h3&gt; &lt;input class=&quot;text thick-border-style glow-style&quot; placeholder=&quot;Email:&quot;/&gt; &lt;h3 class=&quot;billing-info-icon&quot;&gt;Shipping Address&lt;/h3&gt; &lt;label class&gt; &lt;input class=&quot;text thick-border-style glow-style&quot; placeholder=&quot;Full Name:&quot;&gt; &lt;input class=&quot;text thick-border-style glow-style&quot; placeholder=&quot;Street Address 1:&quot;&gt; &lt;input class=&quot;text thick-border-style glow-style&quot; placeholder=&quot;Address 2(Apt #, Suite, Floor):&quot;&gt; &lt;input class=&quot;text thick-border-style glow-style&quot; placeholder=&quot;City:&quot;&gt; &lt;input class=&quot;text thick-border-style glow-style&quot; placeholder=&quot;Province:&quot;&gt; &lt;input class=&quot;text thick-border-style glow-style&quot; placeholder=&quot;Postal Code:&quot;&gt; &lt;input class=&quot;text thick-border-style glow-style&quot; placeholder=&quot;Email Address:&quot;&gt; &lt;input class=&quot;text thick-border-style glow-style&quot; placeholder=&quot;Phone Number:&quot;&gt; &lt;/label&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt;</code>
 					</div>
-
-				</div>
-
+		
 			</div>
-		</div>
 
 
 		<!-- Lists -->
@@ -1240,14 +1239,14 @@
 								<h3 class="payment-info-icon">Payment Info</h3>
 
 								<label>
-									<input class="text thick-border-style glow-style" placeholder="Card Number:"/>
+									<input class="text glow-style" placeholder="Card Number:"/>
 								</label>
 
 								<div class="card-type-container">
-									<img alt="VISA" src="img/visa-icon.png" width:"32" height:"32">
-									<img alt="MASTERCARD" src="img/mastercard-icon.png">
-									<img alt="AMEX" src="img/amex-icon.png">
-									<img alt="PAYPAL" src="img/paypal-icon.png">
+									<img alt="VISA" src="img/visa-icon.png" width="32" height="32">
+									<img alt="MASTERCARD" src="img/mastercard-icon.png"  width="32" height="32">
+									<img alt="AMEX" src="img/amex-icon.png"  width="32" height="32">
+									<img alt="PAYPAL" src="img/paypal-icon.png"  width="32" height="32">
 								</div>
 
 
@@ -1275,7 +1274,7 @@
 
 									<label class="expiration-year">
 										<h3>Expiration Year</h3>
-										<select class="year glow-style "name="year">
+										<select class="year glow-style" name="year">
 											<option>Select..</option>
 											<option value="2015">2015</option>
 											<option value="2016">2016</option>
