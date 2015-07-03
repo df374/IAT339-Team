@@ -312,7 +312,7 @@ figure:active .product-detail-text .product-text {
 
 	}
 
-	.nav-phone, .btn-home-product-detail{
+	.nav-phone, .btn-home-product-detail, .checkout-table-phone{
 		display:none;
 	}
 }
@@ -363,10 +363,17 @@ figure:active .product-detail-text .product-text {
 	}
 
 	.grid-col-2of10 {
-	width: 100%;
+		width: 100%;
 	}
 
-	.nav, .home-products, .filter-selection{
+	.grid-col-5of10-cart{
+		width: 50%;
+		text-align: left;
+		border-right: 0.1em solid gray;
+		padding:1em;
+	}
+
+	.nav, .home-products, .filter-selection, .checkout-table{
 		display:none;
 	}
 
