@@ -107,31 +107,31 @@ footer {
 }
 
 .btn-review {
-	 border:0.1em solid #353D44;
+	 border:0.1em solid #F5DEB3;
 	 color:#FFF;
-	 background-color:#353D44;
+	 background-color:#F5DEB3;
 	
 
 }
 
 .btn-review:hover {
-	border:0.1em solid #353D44;
-	color:#353D44;
+	border:0.1em solid #F5DEB3;
+	color:black;
 	background-color:#FFF;
 	transition: .3s background-color;
 }
 
 .btn-review:active {
-	border:0.1em solid #888c8e;
+	border:0.1em solid #FDF5E6;
 	color:#FFF;
-	background-color:#888c8e;
+	background-color:#FDF5E6;
 	transition: .3s background-color;
 }
 
 
 .btn-cart{
-	border:0.1em solid #ffc967;
-	background-color: #ffc967;
+	border:0.1em solid #CFD784;
+	background-color: #CFD784;
 	color: white;
 
 }
@@ -139,7 +139,7 @@ footer {
 .btn-cart:hover{
 	padding:1em;
 	display: inline-block;
-	border:0.1em solid #ffc967;
+	border:0.1em solid #CFD784;
 	text-align: center;
 	background-color:white;
 	color: black;
@@ -149,9 +149,9 @@ footer {
 .btn-cart:active{
 	padding:1em;
 	display: inline-block;
-	border:0.1em solid #ffc967;
+	border:0.1em solid #D4ED91;
 	text-align: center;
-	background-color:#ffe4b4;
+	background-color:#D4ED91;
 	transition: .3s background-color;
 }
 
