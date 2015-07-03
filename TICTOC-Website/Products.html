@@ -22,36 +22,44 @@
 
 	<!--Logo Banner above Navigation Menu-->
 
-  <div>
-      <div class = "header">
-        <div class = "header-content">
-            
-            <a class="header-item" href="#">Sign Up/Log In</a>
-            <a class="header-item" href="#">Cart (0)</a>
-            <label class="header-item">Search <input/></label>
-        </div>  
-      </div>
-  </div>
+    <div class = "header">
+      <div class = "header-content">
 
+        <a class="header-item" href="#">Sign Up/Log In</a>
+        <a class="header-item" href="#">Cart (0)</a>
+        <label class="header-item">Search <input/></label>
+      </div>  
+    </div>
 
-    
-  <div class="site-logo">
-    
+    <div class="site-logo">
       <a href="Main.html"><img alt="header" src="img/siteLogo.png" width="300" height="201"></a>
+    </div>
 
-  </div>
+      <!--nav bar-->
+    <div class="nav">
+      <ul>
+        <li class="home"><a href="Main.html">Home</a></li>
+        <li class="products"><a href="Products.html">Shop</a></li>
+        <li class="updates"><a href="Events.html">Events</a></li>
+        <li class="about"><a href="About.html">About</a></li>
+        <li class="contact"><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
 
-    <!--nav bar-->
-  <div class="nav">
-    <ul>
-      <li class="home"><a href="Main.html">Home</a></li>
-      <li class="products"><a class="link-active" href="Products.html">Shop</a></li>
-      <li class="updates"><a href="Events.html">Events</a></li>
-      <li class="about"><a href="About.html">About</a></li>
-      <li class="contact"><a href="Contact.html">Contact</a></li>
-    </ul>
-  </div>
+    <div class="grid">
+      <label class="nav-phone">
+        <select onchange="window.location=this.value">
+          <option>Select Destination...</option>
+          <option value="Main.html">Home</option>
+          <option value="#">Shop</option>
+          <option value="Events.html">Events</option>
+          <option value="About.html">About</option>
+          <option value="Contact.html">Contact</option>
+        </select>
+      </label>
 
+      <h2 class="nav-phone-header">Shop</h2>
+    </div>
   
   
   <!--filter selection box -->
@@ -88,164 +96,158 @@
 	<!--product list-->
   	<div class="grid">
 
-         <div class="grid-col-2of10">
+      <div class="grid-col-2of10">
+        
+        <article>
+
+          <figure>
             
-            <article>
+            <div class="product-detail-text">
+              <p class="product-text">details</p>             
+            </div>
 
-              <figure>
-                
-                <div class="product-detail-text">
-                  <p class="product-text">details</p>             
-                </div>
+            <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_metal.jpg" width="400" height="400"></a>
 
-                <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_metal.jpg" width="400" height="400"></a>
+          </figure>
 
-              </figure>
+          <h4>Modern Series</h4>
+          <p>$39.99</p>
 
-              <h4>Modern Series</h4>
-              <p>$39.99</p>
+        </article>
+       
+      </div>
 
-            </article>
-           
-         </div>
+      <div class="grid-col-2of10">
+        <article>
 
-         <div class="grid-col-2of10">
-            <article>
+          <figure>
+            <div class="product-detail-text">
+              <p class="product-text">details</p>             
+            </div>
 
-              <figure>
-                <div class="product-detail-text">
-                  <p class="product-text">details</p>             
-                </div>
+            <a class="product-img" href="Product-Detail.html" class="darken"><img alt="product" src="img/clock_black.jpg" width="400" height="400"></a>
+          </figure>
 
-                <a class="product-img" href="Product-Detail.html" class="darken"><img alt="product" src="img/clock_black.jpg" width="400" height="400"></a>
-              </figure>
+           <h4>Modern Series</h4>
+           <p>$59.99</p>
 
-               <h4>Modern Series</h4>
-               <p>$59.99</p>
+        </article>
+      </div>
 
-            </article>
-         </div>
+      <div class="grid-col-2of10">
+        <article>
+
+          <figure>
+            <div class="product-detail-text">
+              <p class="product-text">details</p>             
+            </div>
+
+            <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_record.jpg" width="400" height="400"></a>
+          </figure>
+
+           <h4>Retro Series</h4>
+           <p>$39.99</p>
+
+        </article>
+      </div>
+
+      <div class="grid-col-2of10">
+        <article>
+
+          <figure>
+            <div class="product-detail-text">
+              <p class="product-text">details</p>             
+            </div>
+
+            <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock1.jpg" width="400" height="400"></a>
+          </figure>
+
+          <h4>Classic Series</h4>
+          <p>$89.99</p>
+
+        </article>
+      </div>
+
+      <div class="grid-col-2of10">
+        <article>
+
+          <figure>
+            <div class="product-detail-text">
+              <p class="product-text">details</p>             
+            </div>
+
+            <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_simple.jpg" width="400" height="400"></a>
+          </figure>
+
+          <h4>Basic Series</h4>
+          <p>$29.99</p>
+
+        </article>
+      </div>
+
+      <div class="grid-col-2of10">
+        <article>
+
+          <figure>
+            <div class="product-detail-text">
+              <p class="product-text">details</p>             
+            </div>
+
+            <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_blu.jpg" width="400" height="400"></a>
+          </figure>
+
+           <h4>Retro Series</h4>
+           <p>$59.99</p>
+
+        </article>
+      </div>
+
+      <div class="grid-col-2of10">
+          <article>
+
+            <figure>
+
+              <div class="product-detail-text">
+                <p class="product-text">details</p>             
+              </div>
+
+              <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_flower.jpg" width="400" height="400"></a>
+            </figure>
+
+             <h4>Nature Series</h4>
+             <p>$49.99</p>
+
+          </article>
+       </div>
 
         <div class="grid-col-2of10">
-            <article>
+          <article>
 
-              <figure>
-                <div class="product-detail-text">
-                  <p class="product-text">details</p>             
-                </div>
+            <figure>
+              <div class="product-detail-text">
+                <p class="product-text">details</p>             
+              </div>
 
-                <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_record.jpg" width="400" height="400"></a>
-              </figure>
+              <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_orange.jpg" width="400" height="400"></a>
+            </figure>
 
-               <h4>Retro Series</h4>
-               <p>$39.99</p>
+            <h3>Retro Series</h4>
+            <p>$69.99</p>
 
-            </article>
-         </div>
-
-         <div class="grid-col-2of10">
-            <article>
-
-              <figure>
-                <div class="product-detail-text">
-                  <p class="product-text">details</p>             
-                </div>
-
-                <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock1.jpg" width="400" height="400"></a>
-              </figure>
-
-              <h4>Classic Series</h4>
-              <p>$89.99</p>
-
-            </article>
-         </div>
-
-         <div class="grid-col-2of10">
-            <article>
-
-              <figure>
-                <div class="product-detail-text">
-                  <p class="product-text">details</p>             
-                </div>
-
-                <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_simple.jpg" width="400" height="400"></a>
-              </figure>
-
-              <h4>Basic Series</h4>
-              <p>$29.99</p>
-
-            </article>
-         </div>
-
-         <div class="grid-col-2of10">
-            <article>
-
-              <figure>
-                <div class="product-detail-text">
-                  <p class="product-text">details</p>             
-                </div>
-
-                <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_blu.jpg" width="400" height="400"></a>
-              </figure>
-
-               <h4>Retro Series</h4>
-               <p>$59.99</p>
-
-            </article>
-         </div>
-
-        <div class="grid-col-2of10">
-            <article>
-
-              <figure>
-
-                <div class="product-detail-text">
-                  <p class="product-text">details</p>             
-                </div>
-
-                <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_flower.jpg" width="400" height="400"></a>
-              </figure>
-
-               <h4>Nature Series</h4>
-               <p>$49.99</p>
-
-            </article>
-         </div>
-
-         <div class="grid-col-2of10">
-            <article>
-
-              <figure>
-                <div class="product-detail-text">
-                  <p class="product-text">details</p>             
-                </div>
-
-                <a class="product-img" href="Product-Detail.html"><img alt="product" src="img/clock_orange.jpg" width="400" height="400"></a>
-              </figure>
-
-              <h3>Retro Series</h4>
-              <p>$69.99</p>
-
-            </article>
-         </div>
-
+          </article>
+        </div>
       </div>
+         
+      <footer>  
+        <div id="footer-container">   
+          <div id="copyright">
+              <ul>
+                <li>©2015 TicToc Inc. All rights reserved.</li>
+              </ul>
+          </div>
+        </div>
+      </footer>
 
-
-      <div class="footer">
-      </div>
-
-      
-  <footer>  
-    <div id="footer-container">   
-      <div id="copyright">
-          <ul>
-            <li>©2015 TicToc Inc. All rights reserved.</li>
-          </ul>
-      </div>
-    </div>
-  </footer>
-
-</body>
+  </body>
 
 </html>

@@ -22,23 +22,17 @@
 
 	<!--Logo Banner above Navigation Menu-->
 
-    <div>
-        <div class = "header">
-          <div class = "header-content">
-              
-              <a class="header-item" href="#">Sign Up/Log In</a>
-              <a class="header-item" href="#">Cart (0)</a>
-              <label class="header-item">Search <input/></label>
-          </div>  
-        </div>
+    <div class = "header">
+      <div class = "header-content">
+
+        <a class="header-item" href="#">Sign Up/Log In</a>
+        <a class="header-item" href="#">Cart (0)</a>
+        <label class="header-item">Search <input/></label>
+      </div>  
     </div>
 
-
-      
     <div class="site-logo">
-      
-        <a href="Main.html"><img alt="header" src="img/siteLogo.png" width="300" height="201"></a> 
-
+      <a href="Main.html"><img alt="header" src="img/siteLogo.png" width="300" height="201"></a>
     </div>
 
       <!--nav bar-->
@@ -47,9 +41,24 @@
         <li class="home"><a href="Main.html">Home</a></li>
         <li class="products"><a href="Products.html">Shop</a></li>
         <li class="updates"><a href="Events.html">Events</a></li>
-        <li class="about"><a class="link-active" href="#">About</a></li>
+        <li class="about"><a href="About.html">About</a></li>
         <li class="contact"><a href="Contact.html">Contact</a></li>
       </ul>
+    </div>
+
+    <div class="grid">
+      <label class="nav-phone">
+        <select onchange="window.location=this.value">
+          <option>Select Destination...</option>
+          <option value="Main.html">Home</option>
+          <option value="Products.html">Shop</option>
+          <option value="Events.html">Events</option>
+          <option value="#">About</option>
+          <option value="Contact.html">Contact</option>
+        </select>
+      </label>
+
+      <h2 class="nav-phone-header">About Us</h2>
     </div>
 
   
@@ -67,73 +76,71 @@
     	<h2 class="underline-wide">Meet the Team</h2>
 
 
-       <div class="grid-col-2of10">
-          <article>
+      <div class="grid-col-2of10">
+        <article>
 
-            <figure>
-              <a href="About.html"><img alt="member-1" src="img/team-1.png" width="400" height="400"></a>
-            </figure>
+          <figure>
+            <a href="About.html"><img alt="member-1" src="img/team-1.png" width="400" height="400"></a>
+          </figure>
 
-            <h4>Johnathan Smith</h4>
-            <p>Clock Specialist</p>
+          <h4>Johnathan Smith</h4>
+          <p>Clock Specialist</p>
 
-          </article>
-       </div>
-
-       <div class="grid-col-2of10">
-          <article>
-
-            <figure>
-              <a href="About.html"><img alt="member-2" src="img/team-2.jpg" width="400" height="400"></a>
-            </figure>
-
-            <h4>David Vega</h4>
-            <p>Clock Technician</p>
-
-          </article>
-       </div>
-
-       <div class="grid-col-2of10">
-          <article>
-
-            <figure>
-              <a href="About.html"><img alt="member-3" src="img/team-3.png" width="400" height="400"></a>
-            </figure>
-
-            <h4>Michael Steveson</h4>
-            <p>Clock Designer</p>
-
-          </article>
-       </div>
-
-       <div class="grid-col-2of10">
-          <article>
-
-            <figure>
-              <a href="About.html"><img alt="member-4" src="img/team-4.png" width="400" height="400"></a>
-            </figure>
-
-            <h4>Brianna McDonnor</h4>
-            <p>Margeting & Sales</p>
-
-          </article>
-       </div>
-       
-     </div>
-
-  <footer>  
-    <div id="footer-container">
-
-      <div id="copyright">
-          <ul>
-            <li>©2015 TicToc Inc. All rights reserved.</li>
-          </ul>
+        </article>
       </div>
+
+      <div class="grid-col-2of10">
+        <article>
+
+          <figure>
+            <a href="About.html"><img alt="member-2" src="img/team-2.jpg" width="400" height="400"></a>
+          </figure>
+
+          <h4>David Vega</h4>
+          <p>Clock Technician</p>
+
+        </article>
+      </div>
+
+      <div class="grid-col-2of10">
+        <article>
+
+          <figure>
+            <a href="About.html"><img alt="member-3" src="img/team-3.png" width="400" height="400"></a>
+          </figure>
+
+          <h4>Michael Steveson</h4>
+          <p>Clock Designer</p>
+
+        </article>
+      </div>
+
+      <div class="grid-col-2of10">
+        <article>
+
+          <figure>
+            <a href="About.html"><img alt="member-4" src="img/team-4.png" width="400" height="400"></a>
+          </figure>
+
+          <h4>Brianna McDonnor</h4>
+          <p>Margeting & Sales</p>
+
+        </article>
+      </div>
+       
     </div>
-  </footer>
 
+    <footer>  
+      <div id="footer-container">
 
+        <div id="copyright">
+            <ul>
+              <li>©2015 TicToc Inc. All rights reserved.</li>
+            </ul>
+        </div>
+      </div>
+    </footer>
 
-</body>
+  </body>
 
 </html>

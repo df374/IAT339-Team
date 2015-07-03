@@ -20,35 +20,43 @@
 
 	<body>
 
-		<div>
-	      <div class = "header">
-	        <div class = "header-content">
-	            
-	            <a class="header-item" href="#">Sign Up/Log In</a>
-	            <a class="header-item" href="#">Cart (0)</a>
-	            <label class="header-item">Search <input/></label>
-	        </div>  
-	      </div>
-	 	 </div>
+		<div class = "header">
 
+			<div class = "header-content">
 
-	    
-		  <div class="site-logo">
-		    
-		    <a href="Main.html"><img alt="header" src="img/siteLogo.png" width="300" height="201"></a>
+				<a class="header-item" href="#">Sign Up/Log In</a>
+				<a class="header-item" href="#">Cart (0)</a>
+				<label class="header-item">Search <input/></label>
+			</div>  
+		</div>
 
-		  </div>
+		<div class="site-logo">
+			<a href="Main.html"><img alt="header" src="img/siteLogo.png" width="300" height="201"></a>
+		</div>
 
-		    <!--nav bar-->
-		  <div class="nav">
-		    <ul>
-		      <li class="home"><a href="Main.html">Home</a></li>
-		      <li class="products"><a href="Products.html">Shop</a></li>
-		      <li class="updates"><a href="Events.html">Events</a></li>
-		      <li class="about"><a href="About.html">About</a></li>
-		      <li class="contact"><a href="Contact.html">Contact</a></li>
-		    </ul>
-		  </div>
+	    <!--nav bar-->
+		<div class="nav">
+			<ul>
+				<li class="home"><a href="Main.html">Home</a></li>
+				<li class="products"><a href="Products.html">Shop</a></li>
+				<li class="updates"><a href="Events.html">Events</a></li>
+				<li class="about"><a href="About.html">About</a></li>
+				<li class="contact"><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+
+		<div class="grid">
+			<label class="nav-phone">
+				<select onchange="window.location=this.value">
+					<option>Select Destination...</option>
+					<option value="Main.html">Home</option>
+					<option value="Products.html">Shop</option>
+					<option value="Events.html">Events</option>
+					<option value="About.html">About</option>
+					<option value="Contact.html">Contact</option>
+				</select>
+			</label>
+	    </div>
 
 
 		<div class="grid">
@@ -75,16 +83,16 @@
 		</div>
 
 		
-  <footer>  
-    <div id="footer-container">   
-      <div id="copyright">
-          <ul>
-            <li>©2015 TicToc Inc. All rights reserved.</li>
-          </ul>
-      </div>
-    </div>
-  </footer>
+		<footer>  
+			<div id="footer-container">   
+				<div id="copyright">
+					<ul>
+						<li>©2015 TicToc Inc. All rights reserved.</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
 
-</body>
+	</body>
 
 </html>

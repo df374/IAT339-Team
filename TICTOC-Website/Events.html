@@ -17,28 +17,21 @@
 
 </head>
 
-
 	<body>
 
   	<!--Logo Banner above Navigation Menu-->
 
-    <div>
-        <div class = "header">
-          <div class = "header-content">
-              
-              <a class="header-item" href="#">Sign Up/Log In</a>
-              <a class="header-item" href="#">Cart (0)</a>
-              <label class="header-item">Search <input/></label>
-          </div>  
-        </div>
+    <div class = "header">
+      <div class = "header-content">
+
+        <a class="header-item" href="#">Sign Up/Log In</a>
+        <a class="header-item" href="#">Cart (0)</a>
+        <label class="header-item">Search <input/></label>
+      </div>  
     </div>
 
-
-      
     <div class="site-logo">
-      
-        <a href="Main.html"><img alt="header" src="img/siteLogo.png" width="300" height="201"></a>
-        
+      <a href="Main.html"><img alt="header" src="img/siteLogo.png" width="300" height="201"></a>
     </div>
 
       <!--nav bar-->
@@ -46,78 +39,92 @@
       <ul>
         <li class="home"><a href="Main.html">Home</a></li>
         <li class="products"><a href="Products.html">Shop</a></li>
-        <li class="updates"><a class="link-active" href="Events.html">Events</a></li>
+        <li class="updates"><a href="Events.html">Events</a></li>
         <li class="about"><a href="About.html">About</a></li>
         <li class="contact"><a href="Contact.html">Contact</a></li>
       </ul>
     </div>
 
+    <div class="grid">
+      <label class="nav-phone">
+        <select onchange="window.location=this.value">
+          <option>Select Destination...</option>
+          <option value="Main.html">Home</option>
+          <option value="Products.html">Shop</option>
+          <option value="#">Events</option>
+          <option value="About.html">About</option>
+          <option value="Contact.html">Contact</option>
+        </select>
+      </label>
+
+      <h2 class="nav-phone-header">Events</h2>
+    </div>
    
-      <div class="grid">
-      	<!--paragraph-->
+    <div class="grid">
+    	<!--paragraph-->
 
-      	<div class="paragraph-general">
+    	<div class="paragraph-general">
 
-      		<p>Our events page will keep you up to date with the latest trends and designs, whether it is for the home, office or personal space. Become inspired through our quick DIY guides and create your very own designs! Finally, enter our monthly contests to win fabulous prizes. </p>
-      	
-      	</div>
+    		<p>Our events page will keep you up to date with the latest trends and designs, whether it is for the home, office or personal space. Become inspired through our quick DIY guides and create your very own designs! Finally, enter our monthly contests to win fabulous prizes. </p>
+    	
+    	</div>
 
 
-        <h2 class="underline-wide">Events</h2>
+      <h2 class="underline-wide">Events</h2>
+      
+      <div class="grid-col-2of10">
+        <article>             
+          <a href="Events-Detail.html"><img alt="home-trends" src="img/news-trends.jpg" width="400" height="400"></a>
+
+          <h4 class="event-detail-h">Trends for the Home</h4>
+          <p class="event-detail-text">The latest trends in clock home decor from our experts</p>
         
-        <div class="grid-col-2of10">
-          <article>             
-            <a href="Events-Detail.html"><img alt="home-trends" src="img/news-trends.jpg" width="400" height="400"></a>
-
-            <h4 class="event-detail-h">Trends for the Home</h4>
-            <p class="event-detail-text">The latest trends in clock home decor from our experts</p>
-          
-          </article>
-        </div>
-
-        <div class="grid-col-2of10">
-          <article>
-            <a href="Events-Detail.html"><img alt="DIY-technique" src="img/updates-newitems.jpg" width="400" height="400"></a>
-
-            <h4 class="event-detail-h">New Clock Designs</h4>
-            <p class="event-detail-text">Get a sneak peak preview our upcoming products</p>
-          
-          
-          </article>
-        </div>
-
-        <div class="grid-col-2of10">
-          <article>
-
-            <a href="Events-Detail.html"><img alt="contests" src="img/events-contests.jpg" width="400" height="400"></a>
-
-            <h4 class="event-detail-h">Contests with Clocks!</h4>
-            <p class="event-detail-text">Check daily for a chance to win the clock of your dreams</p>
-          
-          </article>
-        </div>
-
-        <div class="grid-col-2of10">
-          <article>
-
-            <a href="Events-Detail.html"><img alt="contests" src="img/events-contests.jpg" width="400" height="400"></a>
-
-            <h4 class="event-detail-h">Promotion of the Month</h4>
-            <p class="event-detail-text">Check it out! Get an additional discount off your purchase</p>
-          
-          </article>
-        </div>
+        </article>
       </div>
-    
-  <footer>  
-    <div id="footer-container">   
-      <div id="copyright">
-          <ul>
-            <li>©2015 TicToc Inc. All rights reserved.</li>
-          </ul>
+
+      <div class="grid-col-2of10">
+        <article>
+          <a href="Events-Detail.html"><img alt="DIY-technique" src="img/updates-newitems.jpg" width="400" height="400"></a>
+
+          <h4 class="event-detail-h">New Clock Designs</h4>
+          <p class="event-detail-text">Get a sneak peak preview our upcoming products</p>
+        
+        
+        </article>
+      </div>
+
+      <div class="grid-col-2of10">
+        <article>
+
+          <a href="Events-Detail.html"><img alt="contests" src="img/events-contests.jpg" width="400" height="400"></a>
+
+          <h4 class="event-detail-h">Contests with Clocks!</h4>
+          <p class="event-detail-text">Check daily for a chance to win the clock of your dreams</p>
+        
+        </article>
+      </div>
+
+      <div class="grid-col-2of10">
+        <article>
+
+          <a href="Events-Detail.html"><img alt="contests" src="img/events-contests.jpg" width="400" height="400"></a>
+
+          <h4 class="event-detail-h">Promotion of the Month</h4>
+          <p class="event-detail-text">Check it out! Get an additional discount off your purchase</p>
+        
+        </article>
       </div>
     </div>
-  </footer>
+    
+    <footer>  
+      <div id="footer-container">   
+        <div id="copyright">
+            <ul>
+              <li>©2015 TicToc Inc. All rights reserved.</li>
+            </ul>
+        </div>
+      </div>
+    </footer>
 
   </body>
 
