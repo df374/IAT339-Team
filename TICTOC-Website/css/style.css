@@ -107,15 +107,15 @@ footer {
 }
 
 .btn-review {
-	 border:0.1em solid #E8D399;
+	 border:0.1em solid #e4cc89;
 	 color:#FFF;
-	 background-color:#E8D399;
+	 background-color:#e4cc89;
 	
 
 }
 
 .btn-review:hover {
-	border:0.1em solid #E8D399;
+	border:0.1em solid #e4cc89;
 	color:black;
 	background-color:#FFF;
 	transition: .3s background-color;
@@ -130,8 +130,8 @@ footer {
 
 
 .btn-cart{
-	border:0.1em solid #9ab589;
-	background-color: #9ab589;
+	border:0.1em solid #7b9e65;
+	background-color: #7b9e65;
 	color: white;
 
 }
