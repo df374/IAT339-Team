@@ -952,6 +952,12 @@
 						<img src="img/youtube-icon.png" alt="youtube-icon" width="48" height="48">
 						<img src="img/flickr-icon.png" alt="youtube-icon" width="48" height="48">	
 						
+						<h3>Payment Options Icons</h3>
+
+						<img alt="VISA" src="img/visa-icon.png" width="64" height="64">
+						<img alt="MASTERCARD" src="img/mastercard-icon.png"  width="64" height="64">
+						<img alt="AMEX" src="img/amex-icon.png"  width="64" height="64">
+						<img alt="PAYPAL" src="img/paypal-icon.png"  width="64" height="64">
 
 					</div>
 
@@ -962,7 +968,7 @@
 					<div class="sample-code">
 						<h4 class="code-example">Code Sample</h4>
 
-						<code>&lt;h3&gt;Follow Us&lt;/h3&gt; &lt;img src=&quot;img/facebook-icon.png&quot; alt=&quot;facebook-icon&quot; width=&quot;48&quot; height=&quot;48&quot;&gt; &lt;img src=&quot;img/twitter-icon.png&quot; alt=&quot;twitter-icon&quot; width=&quot;48&quot; height=&quot;48&quot;&gt; &lt;img src=&quot;img/youtube-icon.png&quot; alt=&quot;youtube-icon&quot; width=&quot;48&quot; height=&quot;48&quot;&gt; &lt;img src=&quot;img/flickr-icon.png&quot; alt=&quot;youtube-icon&quot; width=&quot;48&quot; height=&quot;48&quot;&gt;</code>
+						<code>&lt;h3&gt;Follow Us&lt;/h3&gt; &lt;img src=&quot;img/facebook-icon.png&quot; alt=&quot;facebook-icon&quot; width=&quot;48&quot; height=&quot;48&quot;&gt; & &lt;img alt=&quot;VISA&quot; src=&quot;img/visa-icon.png&quot; width=&quot;64&quot; height=&quot;64&quot;&gt;</code>
 					</div>
 
 				</div>
@@ -1138,7 +1144,7 @@
 										<input class="text glow-style" placeholder="Email:"/>
 
 										<h3 class="billing-info-icon">Shipping Address</h3>
-										<label class>
+										<div class="input-placeholders">
 											<input class="text glow-style" placeholder="Full Name:">
 											<input class="text glow-style" placeholder="Street Address 1:">
 											<input class="text glow-style" placeholder="Address 2(Apt #, Suite, Floor):">
@@ -1146,7 +1152,7 @@
 											<input class="text glow-style" placeholder="Province:">
 											<input class="text glow-style" placeholder="Postal Code:">
 											<input class="text glow-style" placeholder="Phone Number:">
-										</label>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -1238,22 +1244,22 @@
 
 								<h3 class="payment-info-icon">Payment Info</h3>
 
-								<label>
-									<input class="text glow-style" placeholder="Card Number:"/>
-								</label>
+							
+								<input class="text glow-style" placeholder="Card Number:"/>
+								
 
 								<div class="card-type-container">
-									<img alt="VISA" src="img/visa-icon.png" width="32" height="32">
-									<img alt="MASTERCARD" src="img/mastercard-icon.png"  width="32" height="32">
-									<img alt="AMEX" src="img/amex-icon.png"  width="32" height="32">
-									<img alt="PAYPAL" src="img/paypal-icon.png"  width="32" height="32">
+									<img alt="VISA" src="img/visa-icon.png" width="64" height="64">
+									<img alt="MASTERCARD" src="img/mastercard-icon.png"  width="64" height="64">
+									<img alt="AMEX" src="img/amex-icon.png"  width="64" height="64">
+									<img alt="PAYPAL" src="img/paypal-icon.png"  width="64" height="64">
 								</div>
 
 
 
 								<div class="card-expiration">
 
-									<label class="expiration-month">
+									<div class="expiration-month">
 										<h3>Expiration Month</h3>
 										<select class="month glow-style" name="month">
 											<option>Select..</option>
@@ -1270,9 +1276,9 @@
 											<option value="November">11 Nov</option>
 											<option value="December">12 Dec</option>
 										</select>
-									</label>
+									</div>
 
-									<label class="expiration-year">
+									<div class="expiration-year">
 										<h3>Expiration Year</h3>
 										<select class="year glow-style" name="year">
 											<option>Select..</option>
@@ -1288,15 +1294,15 @@
 											<option value="2024">2024</option>
 											<option value="2025">2025</option>
 										</select>
-									</label>
+									</div>
 								</div>
 
 
 								<div class="card-code">
-									<label class>
+									
 										<h3>Card Security Code (CSC)</h3>
 										<input class="text thick-border-style glow-style" placeholder="CSC:">
-									</label>
+									
 								</div>
 
 							</div>
