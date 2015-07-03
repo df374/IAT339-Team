@@ -399,6 +399,44 @@
 
 	}
 
+	#swatch-container div {
+	  display:block;
+	  float:left;
+	  width:10em;
+	  height:10em;
+	  margin-right: 0.5em
+	 }
+
+	#swatch-container div p {
+	  color:white;
+	  line-height: 1.5em;
+	  text-align: center;
+	}
+
+	div#swatch-container::after {
+    display: block;
+    content: " ";
+    clear: both;
+	}
+
+	div#swatch-light-blue {
+		background-color:#61abb6;
+	}
+
+	div#swatch-dark-blue {
+		background-color:#3a5d7c;
+	}
+
+	div#swatch-green {
+		background-color:#7b9e65;
+	}
+
+	div#swatch-gold {
+		background-color:#caae61;
+	}
+
+
+
 	/*---------------END OF FIGURES----------------------*/
 
 	/*PRODUCT FILTER-SELECTION*/
@@ -435,8 +473,28 @@
 
 	/* [ BUTTONS ] */
 
-	.btn-cart, .btn-submit{
-		
+    .btn-home-product-detail{
+	font-size: 0.8em;
+	text-transform: uppercase;
+	width:8em;
+	padding:1em;
+	margin: 0.3em;
+	display: inline-block;
+	text-align: center;
+	width:80%;
+	color: #ffffff;
+	background-color: #caae61; 
+	border:0.1em solid #caae61;
+}
+
+    .btn-home-product-detail:active{
+	background-color: white; 
+	border:0.1em solid #caae61;
+	color:gray;	
+}
+
+	.btn-cart, .btn-submit, .btn-review{
+	
 		font-size: 0.8em;
 		text-transform: uppercase;
 		width:8em;
@@ -469,9 +527,31 @@
 
 	}
 
+	.btn-review {
+		 border:0.1em solid #3a5d7c;
+		 color:#FFF;
+		 background-color:#3a5d7c;
+		 text-decoration: none;
+	}
+
+	.btn-review:hover {
+		border:0.1em solid #3a5d7c;
+		color:black;
+		background-color:#FFF;
+		transition: .3s background-color;
+	}
+
+	.btn-review:active {
+		border:0.1em solid #8babc8;
+		color:#FFF;
+		background-color:#8babc8;
+		transition: .3s background-color;
+	}
+
+
 	.btn-cart{
-		border:0.1em solid green;
-		background-color: green;
+		border:0.1em solid #7b9e65;
+		background-color: #7b9e65;
 		color: white;
 
 	}
@@ -479,21 +559,24 @@
 	.btn-cart:hover{
 		padding:1em;
 		display: inline-block;
-		border:0.1em solid green;
+		border:0.1em solid #9ab589;
 		text-align: center;
 		background-color:white;
-		color: green;
+		color: black;
 		transition: .3s background-color;
 	}
 
 	.btn-cart:active{
 		padding:1em;
 		display: inline-block;
-		border:0.1em solid green;
+		border:0.1em solid #b5c9a8;
 		text-align: center;
-		background-color:#d7ffd7;
+		background-color:#b5c9a8;
+		color:black;
 		transition: .3s background-color;
+
 	}
+
 
 
 	.btn-remove{
