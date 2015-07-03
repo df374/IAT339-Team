@@ -2,7 +2,7 @@
 
 /*text stylings*/
 body {
-	font-family: "Josefin Slab" serif;
+	font-family: "Josefin Slab", serif;
 	font-size: 1.2em;
 	margin: 0;
 	padding:0;
@@ -528,7 +528,7 @@ table tr td {
 
 select{
 	padding:0.5em;
-	font-family: "Josefin Slab" serif;
+	font-family: "Josefin Slab", serif;
 
 }
 
@@ -569,18 +569,15 @@ select{
 	margin: 0;
 	width: 100%;
 	font-size: 1.1em;
-	box-shadow: none;
-	border-radius: none;
 	outline: none;
 
-	font-family: "Josefin Slab" serif;
+	font-family: "Josefin Slab", serif;
 	font-size: 1em;
 }
   
 .text:focus {
 	outline: none;
 	border: solid 0.3em #969696;
-	border-radius:none;
 }
 
 .glow-style {
@@ -607,15 +604,12 @@ option{
 	border: none;
 	margin: 0 0 0 0;
 	padding: 0.4em 0.5em;
-	box-shadow:none;
-	border-radius:none;
 	outline: 0.08em solid #dcdcdc; 
 }
  
 .card-expiration select:focus {
 	outline: none;
 	border: solid 0.1em #969696;
-	border-radius:none;
 }
  
 .shipping-option-list {

@@ -1244,22 +1244,26 @@
 
 								<h3 class="payment-info-icon">Payment Info</h3>
 
+								<form>
+									<input class="text glow-style" placeholder="Card Number:">
+								</form>
+
 							
 								<input class="text glow-style" placeholder="Card Number:"/>
 								
 
-								<span class="card-type-container">
+								<div class="card-type-container">
 									<img alt="VISA" src="img/visa-icon.png" width="64" height="64">
 									<img alt="MASTERCARD" src="img/mastercard-icon.png"  width="64" height="64">
 									<img alt="AMEX" src="img/amex-icon.png"  width="64" height="64">
 									<img alt="PAYPAL" src="img/paypal-icon.png"  width="64" height="64">
-								</span>
+								</div>
 
 
 
-								<span class="card-expiration">
+								<div class="card-expiration">
 
-									<div class="expiration-month">
+									<form class="expiration-month">
 										<h3>Expiration Month</h3>
 										<select class="month glow-style" name="month">
 											<option>Select..</option>
@@ -1276,9 +1280,9 @@
 											<option value="November">11 Nov</option>
 											<option value="December">12 Dec</option>
 										</select>
-									</span>
+									</form>
 
-									<span class="expiration-year">
+									<form class="expiration-year">
 										<h3>Expiration Year</h3>
 										<select class="year glow-style" name="year">
 											<option>Select..</option>
@@ -1294,22 +1298,22 @@
 											<option value="2024">2024</option>
 											<option value="2025">2025</option>
 										</select>
-									</div>
-								</span>
+									</form>
+								</div>
 
 
-								<span class="card-code">
-									
-										<h3>Card Security Code (CSC)</h3>
-										<input class="text thick-border-style glow-style" placeholder="CSC:">
-									
-								</span>
-
+							<div class="card-code">
+								<form class>
+									<h3>Card Security Code (CSC)</h3>
+									<input class="text glow-style" placeholder="CSC:">
+								</form>
 							</div>
-						</div>
 
-					</div> <!-- end of payment grid class -->
-				</div><!--end of grid class-->
+						 </div>
+					</div>
+
+				 </div> <!-- end of payment grid class -->
+			</div><!--end of grid class-->
 
 			</div>
 
