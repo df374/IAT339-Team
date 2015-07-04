@@ -52,12 +52,12 @@ footer {
 	padding-right: 0.4em;
 }
 
-.text-input-field-msg input{
-	width:30em;
-	height:10em;
-	padding-bottom: 0.4em;
-	padding-right: 0.4em;
-	vertical-align: text-top;
+.text-input-field-contact input{
+	width:60%;
+}
+.text-input-field-msg textarea{
+	width:100%;
+	margin-bottom: 1em;
 }
 
 /*buttons*/
