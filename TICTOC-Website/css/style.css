@@ -1,11 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro);
 
 /*text stylings*/
 body {
 	font-family: "Lato", sans-serif;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 1.2em;
 	margin: 0;
 	padding:0;
@@ -215,6 +215,9 @@ img{
 }
 
 /*About Page Text Overlay */
+p.team-text {
+	font-weight:300;
+}
 .about-img{
 	position:relative;
 	width:100%;
@@ -240,6 +243,7 @@ img{
 	opacity:0.3;
 }
 
+/*DETAILS Text for the Products Images */
 figure:hover .product-detail-text{
 	display: block;
 }
@@ -248,6 +252,15 @@ figure:active .product-detail-text .product-text {
 
 	color: #B3B3B3;
 
+}
+
+/* DETAILS Text for the EVENTS PAGE IMAGES */
+article:hover .product-detail-text {
+	display: block;
+}
+
+article:active .product-detail-text .product-text {
+	color: #B3B3B3;
 }
 
 
@@ -481,10 +494,12 @@ figure:active .product-detail-text .product-text {
 .event-detail-text{
 	margin-top: 0;
 	text-align: left;
+	font-weight: 300;
 }
 
 .event-detail-h{
 	margin-bottom: 0.5em;
+	font-weight:700;
 }
 
 
@@ -555,10 +570,11 @@ select{
 
 .payment-grid .grid-col-5of10{
 	padding:0.2em;
+
 }
 
 .payment-grid .checkout-nav{
-
+  
 }
 
 .section {
@@ -658,4 +674,40 @@ option{
 	list-style-type: none;
 }
 
+img.media-icon {
+	opacity:1;
+	padding:0.2em;
 
+}
+
+img.media-icon:hover {
+   opacity:0.4;
+}
+
+.media-icons-container{
+	height:3em;
+}
+
+.media-icons-container img {
+	height:100%;
+	width:auto;
+}
+
+img.card-icons {
+	padding:0.1em;
+	
+}
+
+img.card-icons:hover {
+	opacity:0.4;
+}
+
+img.card-icons:active {
+	border:0.1em solid #659e67;
+	border-radius:0.5em;
+}
+
+img.card-icons:focus {
+	border: 0.1em solid black;
+	border-radius:0.4em;
+}
