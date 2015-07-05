@@ -93,6 +93,7 @@ footer {
 	margin: 0.3em;
 	display: inline-block;
 	text-align: center;
+	text-decoration: none;
 
 }
 .btn-submit{
@@ -174,6 +175,7 @@ footer {
 	width:100%;	
 	text-align: right;
 
+
 }
 
 .header-content{
@@ -197,6 +199,8 @@ footer {
 	color:#caae61;
 	transition: .3s color;
 }
+
+
 
 /*site logo*/
 .site-logo{
@@ -299,6 +303,8 @@ article:active .product-detail-text .product-text {
 
 .nav .link-active{
 	color: #BC9545;
+	text-decoration: none;
+
 }
 
 .nav ul{
@@ -613,8 +619,10 @@ select{
 	border: solid 0.3em #969696;
 }
 
+
 .glow-style {
-	padding: 0.6em;
+	padding: 0.8em;
+	margin-bottom:0.6em;
 	border: solid 0.06em #dcdcdc;
 	transition: box-shadow 0.3s, border 0.3s;
 
@@ -710,4 +718,13 @@ img.card-icons:active {
 img.card-icons:focus {
 	border: 0.1em solid black;
 	border-radius:0.4em;
+}
+
+p.forgot-pass {
+	float:left;
+	font-weight: 300;
+}
+
+.Login-Form p a {
+	float:left;
 }
