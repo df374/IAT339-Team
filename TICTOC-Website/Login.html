@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Login</title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+
+
+	<body>
+
+	<!--Logo Banner above Navigation Menu-->
+
+    <div class = "header">
+      <div class = "header-content">
+
+        <a class="link-active" href="Login.html">Log In/Sign Up</a>
+        <a class="header-item" href="#">Cart (0)</a>
+        <label class="header-item header-item-search-normal">Search <input/></label>
+        <p><label class="header-item header-item-search-phone">Search <input/></label></p>
+      </div>  
+    </div>
+
+    <div class="site-logo">
+      <a href="Main.html"><img alt="header" src="img/siteLogo.png" width="300" height="201"></a>
+    </div>
+
+      <!--nav bar-->
+    <div class="nav">
+      <ul>
+        <li class="home"><a href="Main.html">Home</a></li>
+        <li class="products"><a href="Products.html">Shop</a></li>
+        <li class="updates"><a href="Events.html">Events</a></li>
+        <li class="about"><a class="About.html" href="About.html">About</a></li>
+        <li class="contact"><a href="Contact.html">Contact</a></li>
+
+      </ul>
+    </div>
+
+    <div class="grid">
+      <label class="nav-phone">
+        <select onchange="window.location=this.value">
+          <option>Select Destination...</option>
+          <option value="Main.html">Home</option>
+          <option value="Products.html">Shop</option>
+          <option value="Events.html">Events</option>
+          <option value="#">About</option>
+          <option value="Contact.html">Contact</option>
+        </select>
+      </label>
+
+      <div class="grid">
+       <div class="login-form">
+            <h3>Login</h3>
+          <form class="Login-Form">
+            <input class="text glow-style" placeholder="Email">
+            <input class="text glow-style" placeholder="Password">
+          </form>
+
+           <p><a class="btn-cart" href="Main.html">Log In</a></p>
+          <p>Don't have an account? <a href="Sign-Up.html">Sign Up!<p>
+       </div>
+     </div>
+         
+
+    <footer>  
+      <div id="footer-container">
+
+        <div id="copyright">
+            <ul>
+              <li>©2015 TicToc Inc. All rights reserved.</li>
+            </ul>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</html>
