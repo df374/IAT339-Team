@@ -1,11 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Advent+Pro);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600);
 
 /*text stylings*/
 body {
-	font-family: "Lato", sans-serif;
-	font-weight: 400;
+	font-family: "Josefin Sans", sans-serif;
 	font-size: 1.2em;
 	margin: 0;
 	padding:0;
@@ -173,7 +172,6 @@ footer {
 .btn-login {
 	border:0.1em solid #7b9e65;
 	background-color: #7b9e65;
-	width:66%;
 	color: white;
 	
 	
@@ -199,7 +197,6 @@ footer {
 }
 
 .btn-signup {
-	 width:66%;
 	 border:0.1em solid #3a5d7c;
 	 color:#FFF;
 	 background-color:#3a5d7c;
@@ -402,6 +399,7 @@ article:active .product-detail-text .product-text {
 	list-style-type: none;
 	padding:0.3em;
 	color:#4C6482;
+	font-size: 1.3em;
 }
 
 .home, .updates, .products, .about{
@@ -428,7 +426,6 @@ article:active .product-detail-text .product-text {
 		width:50%;
 
 		margin-top: 2em;
-		text-align: right;
 
 	}
 
@@ -551,12 +548,11 @@ article:active .product-detail-text .product-text {
 .event-detail-text{
 	margin-top: 0;
 	text-align: left;
-	font-weight: 300;
 }
 
 .event-detail-h{
 	margin-bottom: 0.5em;
-	font-weight:700;
+	font-weight:600;
 }
 
 
@@ -658,10 +654,10 @@ select{
 	display: block;
 	margin: 0;
 	width: 100%;
-	font-size: 1.1em;
+	font-size: 0.8em;
 	outline: none;
 
-	font-family: "Lato", sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	font-size: 1em;
 }
   
@@ -800,6 +796,10 @@ p.forgot-pass a:active {
 .Login-Form p {
 	font-weight: 300;
 	text-decoration: none;
+}
+
+.format-right{
+	text-align:right;
 }
 
 .signup-option-text a {
