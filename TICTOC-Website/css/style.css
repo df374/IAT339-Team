@@ -650,7 +650,7 @@ select{
 	margin-top:0.25em;
 }
 
-.text {
+.text , .month, .year{
 	display: block;
 	margin: 0;
 	width: 100%;
@@ -707,7 +707,7 @@ option{
 
 .shipping-speed{
 
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 
 /*footer*/
