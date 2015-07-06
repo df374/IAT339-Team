@@ -84,7 +84,7 @@ footer {
 	color:gray;	
 }
 
-.btn-cart, .btn-submit, .btn-review{
+.btn-cart, .btn-submit, .btn-review, .btn-login, .btn-signup{
 	
 	font-size: 0.8em;
 	text-transform: uppercase;
@@ -168,6 +168,57 @@ footer {
 	color:black;
 	transition: .3s background-color;
 
+}
+
+.btn-login {
+	border:0.1em solid #7b9e65;
+	background-color: #7b9e65;
+	width:66%;
+	color: white;
+	
+	
+}
+
+.btn-login:hover {
+	padding:1em;
+	border:0.1em solid #9ab589;
+	text-align: center;
+	background-color:white;
+	color: black;
+	transition: .3s background-color;
+}
+
+.btn-login:active {
+	padding:1em;
+	border:0.1em solid #b5c9a8;
+	text-align: center;
+	background-color:#b5c9a8;
+	color:black;
+	transition: .3s background-color;
+
+}
+
+.btn-signup {
+	 width:66%;
+	 border:0.1em solid #3a5d7c;
+	 color:#FFF;
+	 background-color:#3a5d7c;
+
+}
+
+.btn-signup:hover {
+	border:0.1em solid #3a5d7c;
+	color:black;
+	background-color:#FFF;
+	transition: .3s background-color;
+
+}
+
+.btn-signup:active {
+	border:0.1em solid #8babc8;
+	color:#FFF;
+	background-color:#8babc8;
+	transition: .3s background-color;
 }
 
 
@@ -720,11 +771,63 @@ img.card-icons:focus {
 	border-radius:0.4em;
 }
 
-p.forgot-pass {
+/* LOGIN & SIGNUP PAGES */
+p.forgot-pass p a {
 	float:left;
+	bottom:10em;
 	font-weight: 300;
+	text-decoration: none;
 }
 
-.Login-Form p a {
-	float:left;
+p.forgot-pass a {
+	text-decoration: none;
+}
+
+p.forgot-pass a:hover {
+	text-decoration: none;
+	color:#caae61;
+	transition: .3s color;
+}
+
+p.forgot-pass a:active {
+	text-decoration: none;
+	color:#e2d2a7;
+	transition: .3s color;
+
+}
+
+
+.Login-Form p {
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.signup-option-text a {
+	text-decoration: none;
+}
+
+.signup-option-text a:hover {
+	color:#8babc8; 
+	transition: .3s color;
+}
+
+.signup-option-text a:active {
+	color:#3a5d7c;
+	transition: .3s color;
+
+}
+
+.login-option a {
+	text-decoration:none;
+
+}
+
+.login-option a:hover {
+	color:#7b9e65; 
+	transition: .3s color;
+}
+
+.login-option a:active {
+	color:#b5c9a8; 
+	transition: .3s color;
 }
