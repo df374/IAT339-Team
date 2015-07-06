@@ -521,7 +521,7 @@ border:0.1em solid #caae61;
 color:gray;	
 }
 
-.btn-cart, .btn-submit, .btn-review{
+.btn-cart, .btn-submit, .btn-review, .btn-login{
 
 	font-size: 0.8em;
 	text-transform: uppercase;
@@ -628,6 +628,33 @@ color:gray;
 	color: white;
 	border:0.1em solid #61abb6;
 	transition: .5s background-color;
+}
+
+.btn-login {
+	border:0.1em solid #7b9e65;
+	background-color: #7b9e65;
+	color: white;
+	
+	
+}
+
+.btn-login:hover {
+	padding:1em;
+	border:0.1em solid #9ab589;
+	text-align: center;
+	background-color:white;
+	color: black;
+	transition: .3s background-color;
+}
+
+.btn-login:active {
+	padding:1em;
+	border:0.1em solid #b5c9a8;
+	text-align: center;
+	background-color:#b5c9a8;
+	color:black;
+	transition: .3s background-color;
+
 }
 
 /*---------------END OF BUTTONS------------------*/
